@@ -37,7 +37,7 @@ As a mobile SSA user, I would like to know about the different children of a par
 ### Acceptance Criteria
 * User should see all children levels under each section, similar to how the beta site functions when a desktop browser window is reduced to the smallest width ([see screenshot here](images/desktopFooter.png))
 
-![prepare](images/govHeader.png)
+![prepare](images/grayFooter.png)
 
 
 ## Mobile: Eligibility Checker Exit vs Back Button
