@@ -26,7 +26,7 @@ As a mobile SSA user, I would to have as much vertical space as possible, so I c
 ### General Comments from Paul
 * I don't know if this was mandated by SSA senior leadership, but it seems like a burden on the user to give up that vertical space on all mobile pages.
 
-![prepare](images/prepareBreadcrumbs.png)
+![prepare](images/govHeader.png)
 
 
 ## Mobile: Items in Gray Footer are Not Seen
