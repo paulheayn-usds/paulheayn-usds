@@ -74,7 +74,7 @@ As a mobile user checking my eligibility, I want to quickly go through each step
 ![prepare](images/unlockedCTA.png)
 
 
-## Web: Eligibility Logic Bug
+## Web: Eligibility Checker Birthday Logic Bug
 
 ### Repo Steps
 1. Go to eligibility Checker
