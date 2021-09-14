@@ -1,8 +1,16 @@
 ## Goals
 * Define differences in mobile site that could effect navigation and flow and improve
 
+## Issues
+* [Mobile: Breadcrumbs Don't Function](#breadcrumb)
+* [Mobile: Official Government Header Takes Up Room](#header)
+* [Mobile: Items in Gray Footer are Not Seen](#footer)
+* [Mobile: Eligibility Checker Exit vs Back Button](#exit)
+* [Mobile: Eligibility Checker Next Button Below Fold](#cta)
+* [Web: Eligibility Checker Birthday Logic Bug](#birthday)
 
-## Mobile: Breadcrumbs Don't Function
+
+## <a name="breadcrumb"></a>Mobile: Breadcrumbs Don't Function
 
 ### User Story
 As a mobile SSA user, I would like to tap on the breadcrumb, so I can go up a previous level in the site
@@ -14,7 +22,7 @@ As a mobile SSA user, I would like to tap on the breadcrumb, so I can go up a pr
 ![prepare](images/prepareBreadcrumbs.png)
 
 
-## Mobile: Official Government Header Takes Up Room
+## <a name="header"></a>Mobile: Official Government Header Takes Up Room
 
 ### User Story
 As a mobile SSA user, I would to have as much vertical space as possible, so I can read the information without scrolling as much
@@ -29,7 +37,7 @@ As a mobile SSA user, I would to have as much vertical space as possible, so I c
 ![prepare](images/govHeader.png)
 
 
-## Mobile: Items in Gray Footer are Not Seen
+## <a name="footer"></a>Mobile: Items in Gray Footer are Not Seen
 
 ### User Story
 As a mobile SSA user, I would like to know about the different children of a parent section, so I can have another route to navigate to what I'm looking for
@@ -40,7 +48,7 @@ As a mobile SSA user, I would like to know about the different children of a par
 ![prepare](images/grayFooter.png)
 
 
-## Mobile: Eligibility Checker Exit vs Back Button
+## <a name="exit"></a>Mobile: Eligibility Checker Exit vs Back Button
 
 ### User Story
 As a mobile SSA user who wants to exit the eligibility checker, I want to know how to leave the checker, so I don't accidentally go to the previous question instead.
@@ -58,7 +66,7 @@ As a mobile SSA user who wants to exit the eligibility checker, I want to know h
 ![prepare](images/eligibilityExit.png)
 
 
-## Mobile: Eligibility Checker Next Button Below Fold
+## <a name="cta"></a>Mobile: Eligibility Checker Next Button Below Fold
 
 ### User Story
 As a mobile user checking my eligibility, I want to quickly go through each step, so I can see if I'm eligible for benefits
@@ -74,7 +82,7 @@ As a mobile user checking my eligibility, I want to quickly go through each step
 ![prepare](images/unlockedCTA.png)
 
 
-## Web: Eligibility Checker Birthday Logic Bug
+## <a name="birthday"></a>Web: Eligibility Checker Birthday Logic Bug
 
 ### Repo Steps
 1. Go to eligibility Checker
