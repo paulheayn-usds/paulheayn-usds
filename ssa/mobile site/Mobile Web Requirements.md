@@ -1,30 +1,6 @@
 ## Goals
 * Define differences in mobile site that could effect navigation and flow and improve
 
-# Issues
-
-***
-## Title
-*User Story*
-
-*Acceptance Criteria*
-
-*Analytics*
-
-***
-
-***
-# Bugs
-*User Story*
-
-*Repo Steps*
-
-*Actual Outcome*
-
-*Expected Outcome*
-
-***
-
 ***
 ## Mobile: Breadcrumbs Don't Function
 
@@ -36,7 +12,6 @@ As a mobile SSA user, I would like to tap on the breadcrumb, so I can go up a pr
 * A link should not be styled as a link if it is not clickable
 
 ![prepare](images/prepareBreadcrumbs.png)
-***
 
 ***
 ## Mobile: Official Government Header Takes Up Room
@@ -52,7 +27,6 @@ As a mobile SSA user, I would to have as much vertical space as possible, so I c
 * I don't know if this was mandated by SSA senior leadership, but it seems like a burden on the user to give up that vertical space on all mobile pages.
 
 ![prepare](images/prepareBreadcrumbs.png)
-***
 
 ***
 ## Mobile: Items in Gray Footer are Not Seen
@@ -64,7 +38,6 @@ As a mobile SSA user, I would like to know about the different children of a par
 * User should see all children levels under each section, similar to how the beta site functions when a desktop browser window is reduced to the smallest width ([see screenshot here](images/desktopFooter.png))
 
 ![prepare](images/govHeader.png)
-***
 
 ***
 ## Mobile: Eligibility Checker Exit vs Back Button
@@ -83,7 +56,6 @@ As a mobile SSA user who wants to exit the eligibility checker, I want to know h
 * I don't know if there has been discussion around the 'go back' link, so I don't know if placement has already been tested or finalized.
 
 ![prepare](images/eligibilityExit.png)
-***
 
 ***
 ## Mobile: Eligibility Checker Next Button Below Fold
@@ -100,7 +72,6 @@ As a mobile user checking my eligibility, I want to quickly go through each step
 * Is it more important to read the content (teal callouts) or find the cta to move to the next question? im about to write a user story to lock the cta to the bottom of the webview, which would mean the user wouldn't have to scroll to tap the next button, but might not see the call outs.
 
 ![prepare](images/unlockedCTA.png)
-***
 
 ***
 ## Web: Eligibility Logic Bug
@@ -118,32 +89,3 @@ As a mobile user checking my eligibility, I want to quickly go through each step
 
 ### Acceptance Criteria
 * Add validation to the birthday criteria
-
-***
-
-
-
-
-### Meeting Notes 9/10/2021
-
-Homepage
-Application page
-pages need to be mobile friendly
-508(c) accessibility
-
-Pierce is accessibility guru - should go over to Pierce after QA
-
-## Note for Paul
-* Create Product goals for process - make it easy, reduce in-office/calls
-
-
-# Initial Comments
-
-## General
-* Going one level deep, the breadcrumb doesn't work
-* Is the top header 'An official website of the united states government' needed on all levels or only the top-level page?
-* Gray footer has sitemap in closed state - is this intended?
-
-## Eligibility
-* On eligibility checker, the 'next' CTA is below the fold, should it be or should it be locked to the bottom?
-* Eligibility checker, there is a 'go back' button and an 'x' in the upper right corner. one takes you to the previous question and one exits the survey but its not clear
