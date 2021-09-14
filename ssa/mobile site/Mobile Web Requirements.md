@@ -1,7 +1,7 @@
 ## Goals
 * Define differences in mobile site that could effect navigation and flow and improve
 
-***
+
 ## Mobile: Breadcrumbs Don't Function
 
 ### User Story
@@ -13,7 +13,7 @@ As a mobile SSA user, I would like to tap on the breadcrumb, so I can go up a pr
 
 ![prepare](images/prepareBreadcrumbs.png)
 
-***
+
 ## Mobile: Official Government Header Takes Up Room
 
 ### User Story
@@ -28,7 +28,7 @@ As a mobile SSA user, I would to have as much vertical space as possible, so I c
 
 ![prepare](images/prepareBreadcrumbs.png)
 
-***
+
 ## Mobile: Items in Gray Footer are Not Seen
 
 ### User Story
@@ -39,7 +39,7 @@ As a mobile SSA user, I would like to know about the different children of a par
 
 ![prepare](images/govHeader.png)
 
-***
+
 ## Mobile: Eligibility Checker Exit vs Back Button
 
 ### User Story
@@ -57,7 +57,7 @@ As a mobile SSA user who wants to exit the eligibility checker, I want to know h
 
 ![prepare](images/eligibilityExit.png)
 
-***
+
 ## Mobile: Eligibility Checker Next Button Below Fold
 
 ### User Story
@@ -73,7 +73,7 @@ As a mobile user checking my eligibility, I want to quickly go through each step
 
 ![prepare](images/unlockedCTA.png)
 
-***
+
 ## Web: Eligibility Logic Bug
 
 ### Repo Steps
