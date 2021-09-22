@@ -28,6 +28,11 @@ It gets tricky when the page starts to talk about edge cases - military, farm wo
 
 The next section talks about pensions, which aren't too complicated to understand, but Windfall Elimination Provision is pretty complicated - I still have no unpacked this portion. Again, we might not need to show this information if it is not pertinent to the user.
 
+# Questions to Answer
+* Do we want to continue to support multiple calculators to allow users to get the information they need quickly?
+* How many times does a user come back and reuse a calculator?
+* Could we add functionality to save the results or email the results so they don't have to do the calculator again?
+
 
 # <a name="outOfScope"></a>Out of Scope
 * [Retirement Estimator](https://www.ssa.gov/benefits/retirement/estimator.html) - This requires authentication
@@ -141,6 +146,17 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ## <a name="calculators"></a>Calculators
 ### <a name="spouseBeneCalc"></a>[Benefits for Spouses](https://www.ssa.gov/OACT/quickcalc/spouse.html)
+
+**Takeaways**
+* UX
+  * Fields are too small
+  * No main call to action
+  * calculator hidden on the page
+* Tons of explanatory text that could most likely be explained differently or before a user gets to the calculator
+
+**Next Steps**
+* I have no idea how often this gets used
+* I also am not sure if this should be an ad-hoc calculator or integrated into a larger calculator
 
 ![Benefits for Spouse](images/benefitsForSpouseResults.png)
 
