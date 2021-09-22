@@ -149,6 +149,10 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [https://www.ssa.gov/OACT/quickcalc/spouse.html](https://www.ssa.gov/OACT/quickcalc/spouse.html)
 
+**Users**
+* Married or widowed
+* Users who want to retire early
+
 **Takeaways**
 * UX
   * Fields are too small
@@ -156,9 +160,11 @@ The next section talks about pensions, which aren't too complicated to understan
   * calculator hidden on the page
 * Tons of explanatory text that could most likely be explained differently or before a user gets to the calculator
 
+
 **Next Steps**
 * I have no idea how often this gets used
 * I also am not sure if this should be an ad-hoc calculator or integrated into a larger calculator
+* Do users only come here to check the effect early retirement would have on spouse benefits?
 
 ![Benefits for Spouse](images/benefitsForSpouseResults.png)
 
@@ -169,6 +175,10 @@ The next section talks about pensions, which aren't too complicated to understan
 ### <a name="gpoCalc"></a>[Government Pension Offset Calculator](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)
 
 [https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)
+
+**Users**
+* Government workers
+
 
 **Takeaways**
 * UX
@@ -192,12 +202,17 @@ The next section talks about pensions, which aren't too complicated to understan
 ### <a name="lateOrEarlyCalc"></a>[Late or Early Retirement](https://www.ssa.gov/OACT/quickcalc/early_late.html)
 [https://www.ssa.gov/OACT/quickcalc/early_late.html](https://www.ssa.gov/OACT/quickcalc/early_late.html)
 
+**Users**
+* Users who want to retire early or later
+
 **Takeaways**
+* There is a lot of explanatory text stating the effects of retiring early or later and the forumla for determining the reduction. Not sure if that is needed
 * This might be for a slightly different audience - users who are slightly younger (50) and want to plan when they can go on retirement
 * The results are not dynamic - it will be 90% of "primary insurance amount", but if a user is only coming here to see when they retire, they might not know how much that is
 * UX
   * Small Fields
   * Results come back in a text box
+  * Calculator is surrounded by text
 
 **Next Steps**
 * While this might be an ad hoc calculator, it needs more functionality to be useful.
@@ -213,6 +228,13 @@ The next section talks about pensions, which aren't too complicated to understan
 ### <a name="expectancyCalc"></a>[Life Exceptancy Calculator](https://www.ssa.gov/OACT/population/longevity.html)
 [https://www.ssa.gov/OACT/population/longevity.html](https://www.ssa.gov/OACT/population/longevity.html)
 
+**Takeaways**
+* No UX issues
+* Pretty simple
+
+**Next Steps**
+* Could probably be integrated into another calculator
+
 ![genderandAge](images/lifeExpectancyGenderAndAge.png)
 
 ![result](images/lifeExpectancyResult.png)
@@ -222,6 +244,23 @@ The next section talks about pensions, which aren't too complicated to understan
 ***
 
 ### <a name="beneCalc"></a>[Online Benefits Calculator](https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html) - Same as WEP Calculator
+[https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html](https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html)
+
+**Users**
+
+**Takeaways**
+* Recommends users to use the calculator in the authenticated portion of the site.
+* UX
+  * Lots of call outs, warnings and text formatting :(
+  * I guess the results are on the same page as the questions to allow users to go back and change their answer
+  * I don't think the results should be displayed inside a text fieldbox
+* How often do users use the 'inflated dollars' option? Is that needed?
+* Do users really need to input all years of earnings? Isn't the benefit calculated based on the top 35 years of salary?
+
+**Next Steps**
+* Break these questions into multiple pages
+* Don't distract the user with lots of warnings and technical text, let them input the information
+
 
 ![Date of Birth](images/beneCalcdob.png)
 
@@ -246,6 +285,23 @@ The next section talks about pensions, which aren't too complicated to understan
 ***
 
 ### <a name="quickCalc"></a>[Quick Calculator](https://www.ssa.gov/OACT/quickcalc/)
+[https://www.ssa.gov/OACT/quickcalc/](https://www.ssa.gov/OACT/quickcalc/)
+
+**Users**
+* Users who want to quickly view their retirement benefit
+  * Why? Do they not want to do the work in the 'Benefits Calculator' or are they getting a baseline to make a decision in their life?
+  * What do users do with this information? Could we help them by making it easier to export?
+
+**Takeaways**
+* UX
+  * Better than other calculators
+  * "You must be at least 22 years old to use this form" - why is this worded so strongly?
+* Still a lot of explanatory text
+* On the results page, it also shows disability and survivor estimates. I'm not sure if this is in the target market.
+
+**Next Steps**
+* This should definitely be a separate calculator for users who want a quick estimate
+
 
 ![Quick Calculator](images/quickCalc.png)
 
@@ -256,6 +312,19 @@ The next section talks about pensions, which aren't too complicated to understan
 ***
 
 ### <a name="ageCalc"></a>[Retirement Age Calculator](https://www.ssa.gov/benefits/retirement/planner/ageincrease.html)
+[https://www.ssa.gov/benefits/retirement/planner/ageincrease.html](https://www.ssa.gov/benefits/retirement/planner/ageincrease.html)
+
+**User**
+* Users starting down the path of planning for retirement, regardless of age
+* Users who already made a plan for retirement but are confirming their life expectancy before committing to a decision
+
+**Takeaways**
+* UX
+  * Pretty simple calculator
+* A good amount of text to explain the calculator
+
+**Next Steps**
+* I am not 100% sure if this would be better in another calculator or serves a purpose as an ad hoc calculator.
 
 ![ageCalc](images/retirementAgeCalc.png)
 
@@ -266,6 +335,20 @@ The next section talks about pensions, which aren't too complicated to understan
 ***
 
 ### <a name="earningsTestCalc"></a>[Retirement Earnings Test Calculator](https://www.ssa.gov/OACT/COLA/RTeffect.html)
+[https://www.ssa.gov/OACT/COLA/RTeffect.html](https://www.ssa.gov/OACT/COLA/RTeffect.html)
+
+**User**
+* A user who wants to get a more accurate look at what their retirement benefits will look like
+  * Probably closer to retirement age
+  * Willing to spend the extra time to enter in all of this information
+  * What types of users use this calculator? How often?
+
+**Takeaways**
+* UX
+
+
+
+**Next Steps**
 
 ![Retirement Earnings Test Calculator](images/earningsTestCalc.png)
 
@@ -357,7 +440,8 @@ The next section talks about pensions, which aren't too complicated to understan
 [back to top](#top)
 
 ## Comments
-The [Working outside the US](https://www.ssa.gov/international/totalization_agreements.html) section gets a little messy and might not be necessary to add the eligibility from [international agreements](https://www.ssa.gov/international/status.html)
+* The [Working outside the US](https://www.ssa.gov/international/totalization_agreements.html) section gets a little messy and might not be necessary to add the eligibility from [international agreements](https://www.ssa.gov/international/status.html)
+* This layout for 'other considerations' when planning retirement is actually a good breakdown of the checklists that a user needs to account for: [https://www.ssa.gov/benefits/retirement/planner/otherthings.html?tl=0%2C1%2C2%2C3%2C4](https://www.ssa.gov/benefits/retirement/planner/otherthings.html?tl=0%2C1%2C2%2C3%2C4)
 
 ## Parts of Retirement
 * Prepare for retirement
@@ -368,5 +452,6 @@ The [Working outside the US](https://www.ssa.gov/international/totalization_agre
 1. ~~Map out current calculators~~
 2. Diagram current prepare process
 3. Write first draft on requirements
+4. Go back and look into survivor benefits: https://www.ssa.gov/benefits/survivors/
 
 [back to top](#top)
