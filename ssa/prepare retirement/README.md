@@ -147,6 +147,8 @@ The next section talks about pensions, which aren't too complicated to understan
 ## <a name="calculators"></a>Calculators
 ### <a name="spouseBeneCalc"></a>[Benefits for Spouses](https://www.ssa.gov/OACT/quickcalc/spouse.html)
 
+[https://www.ssa.gov/OACT/quickcalc/spouse.html](https://www.ssa.gov/OACT/quickcalc/spouse.html)
+
 **Takeaways**
 * UX
   * Fields are too small
@@ -164,7 +166,22 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="gpoCalc"></a>[Government Pension Offset Calculator](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html) - this seems to have a __ton__ of extra information and is terribly formatted
+### <a name="gpoCalc"></a>[Government Pension Offset Calculator](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)
+
+[https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)
+
+**Takeaways**
+* UX
+  * Calculator is below the fold
+  * Doesn't define what 'today's dollars' is
+* Tons of extra information
+  * Intro text
+  * Why you might be exempt (ask the user and only show them if they need it!)
+  * Documentation you'll need and explanations on what certain inputs will do to your benefit
+
+**Next Steps**
+* Again, we don't have metrics on this
+* Seems like it could be useful as an ad hoc calculator if a user is trying to understand implications of their government pension
 
 ![GPO Calculator](images/gpoCalc.png)
 
@@ -173,6 +190,19 @@ The next section talks about pensions, which aren't too complicated to understan
 ***
 
 ### <a name="lateOrEarlyCalc"></a>[Late or Early Retirement](https://www.ssa.gov/OACT/quickcalc/early_late.html)
+[https://www.ssa.gov/OACT/quickcalc/early_late.html](https://www.ssa.gov/OACT/quickcalc/early_late.html)
+
+**Takeaways**
+* This might be for a slightly different audience - users who are slightly younger (50) and want to plan when they can go on retirement
+* The results are not dynamic - it will be 90% of "primary insurance amount", but if a user is only coming here to see when they retire, they might not know how much that is
+* UX
+  * Small Fields
+  * Results come back in a text box
+
+**Next Steps**
+* While this might be an ad hoc calculator, it needs more functionality to be useful.
+* Possibly consider combining this with a benefits calculator or bridging from this calculator to a benefits calculator ("Want to estimate what 90% of your primary insurance amount? Continue to the next step and find out")
+
 
 ![Early or Late Retirement](images/earlyOrLateRetirement.png)
 
@@ -181,6 +211,7 @@ The next section talks about pensions, which aren't too complicated to understan
 ***
 
 ### <a name="expectancyCalc"></a>[Life Exceptancy Calculator](https://www.ssa.gov/OACT/population/longevity.html)
+[https://www.ssa.gov/OACT/population/longevity.html](https://www.ssa.gov/OACT/population/longevity.html)
 
 ![genderandAge](images/lifeExpectancyGenderAndAge.png)
 
