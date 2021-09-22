@@ -162,17 +162,23 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
+***
+
 ### <a name="gpoCalc"></a>[Government Pension Offset Calculator](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html) - this seems to have a __ton__ of extra information and is terribly formatted
 
 ![GPO Calculator](images/gpoCalc.png)
 
 [back to top](#top)
 
+***
+
 ### <a name="lateOrEarlyCalc"></a>[Late or Early Retirement](https://www.ssa.gov/OACT/quickcalc/early_late.html)
 
 ![Early or Late Retirement](images/earlyOrLateRetirement.png)
 
 [back to top](#top)
+
+***
 
 ### <a name="expectancyCalc"></a>[Life Exceptancy Calculator](https://www.ssa.gov/OACT/population/longevity.html)
 
@@ -181,6 +187,8 @@ The next section talks about pensions, which aren't too complicated to understan
 ![result](images/lifeExpectancyResult.png)
 
 [back to top](#top)
+
+***
 
 ### <a name="beneCalc"></a>[Online Benefits Calculator](https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html) - Same as WEP Calculator
 
@@ -204,6 +212,8 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
+***
+
 ### <a name="quickCalc"></a>[Quick Calculator](https://www.ssa.gov/OACT/quickcalc/)
 
 ![Quick Calculator](images/quickCalc.png)
@@ -211,6 +221,8 @@ The next section talks about pensions, which aren't too complicated to understan
 ![Quick Calculator Results](images/quickCalcResults.png)
 
 [back to top](#top)
+
+***
 
 ### <a name="ageCalc"></a>[Retirement Age Calculator](https://www.ssa.gov/benefits/retirement/planner/ageincrease.html)
 
@@ -220,6 +232,8 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
+***
+
 ### <a name="earningsTestCalc"></a>[Retirement Earnings Test Calculator](https://www.ssa.gov/OACT/COLA/RTeffect.html)
 
 ![Retirement Earnings Test Calculator](images/earningsTestCalc.png)
@@ -227,6 +241,8 @@ The next section talks about pensions, which aren't too complicated to understan
 ![Retirement Earnings Test Result](images/estimateBenefitReductionResult.png)
 
 [back to top](#top)
+
+***
 
 ### <a name="bestCalc"></a>[SSA Benefit Eligibility Screening Tool](https://ssabest.benefits.gov)
 
@@ -266,6 +282,8 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
+***
+
 ### <a name="windfallCalc"></a>[Windfall Elimination Provision](https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html)
 
 ![Date of Birth](images/WEPdob.png)
@@ -282,7 +300,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
-
+***
 
 
 
