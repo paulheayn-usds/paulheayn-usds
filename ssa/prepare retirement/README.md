@@ -1,5 +1,5 @@
 # <a name="top"></a>Contents
-* [To Do](#todo)
+* [Summary](#summary)
 * [Out of Scope](#outOfScope)
 * [Prepare for Retirement](#prepare)
   * [How it works](#howItWorks)
@@ -18,17 +18,16 @@
   * [Retirement Earnings Test Calculator](#earningsTestCalc)
   * [SSA Benefit Eligibility Screening Tool](#bestCalc)
   * [Windfall Elimination Provision](#windfallCalc)
+* [To Do](#todo)
 
 
+# <a name="summary"></a>Summary
+The current landing page has an explanation of how it works and eligibility and when you can retire. Its a lot of text and I think a lot of the text could be paired down or converted into explanatory images/infographics
 
+It gets tricky when the page starts to talk about edge cases - military, farm work, self-employed, etc. There might be a small number of people who fit multiple cases, but I think for the majority of the users, we could show contextual information.
 
+The next section talks about pensions, which aren't too complicated to understand, but Windfall Elimination Provision is pretty complicated - I still have no unpacked this portion. Again, we might not need to show this information if it is not pertinent to the user.
 
-# <a name="todo"></a>To Do
-1. ~~Map out current calculators~~
-2. Diagram current prepare process
-3. Write first draft on requirements
-
-[back to top](#top)
 
 # <a name="outOfScope"></a>Out of Scope
 * [Retirement Estimator](https://www.ssa.gov/benefits/retirement/estimator.html) - This requires authentication
@@ -124,7 +123,7 @@
 
 # Come back later for help???
 ```
- Need help in this area, also [the calculator is nuts](https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html)
+ Need help in this area
 ```
 
 **[Government Pension Offset](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)**
@@ -217,7 +216,7 @@
 
 ![Benefit Eligibility Screening Tool](images/BEST.png)
 
-*Questions*
+*Questions from Benefit Eligibility Screening Tool*
 * What is your date of birth?
 * Choose the option that best describes your citizenship status:
   * U.S. Citizen
@@ -299,5 +298,10 @@ The [Working outside the US](https://www.ssa.gov/international/totalization_agre
 * Prepare for retirement
 * retirement landing page
 * Suspend payments
+
+# <a name="todo"></a>To Do
+1. ~~Map out current calculators~~
+2. Diagram current prepare process
+3. Write first draft on requirements
 
 [back to top](#top)
