@@ -228,12 +228,17 @@ The next section talks about pensions, which aren't too complicated to understan
 ### <a name="expectancyCalc"></a>[Life Exceptancy Calculator](https://www.ssa.gov/OACT/population/longevity.html)
 [https://www.ssa.gov/OACT/population/longevity.html](https://www.ssa.gov/OACT/population/longevity.html)
 
+**Users**
+* Users starting down the path of planning for retirement, regardless of age
+* Users who already made a plan for retirement but are confirming their life expectancy before committing to a decision
+
 **Takeaways**
-* No UX issues
-* Pretty simple
+* UX
+  * Pretty simple calculator
+* A good amount of text to explain the calculator
 
 **Next Steps**
-* Could probably be integrated into another calculator
+* I am not 100% sure if this would be better in another calculator or serves a purpose as an ad hoc calculator
 
 ![genderandAge](images/lifeExpectancyGenderAndAge.png)
 
@@ -247,9 +252,12 @@ The next section talks about pensions, which aren't too complicated to understan
 [https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html](https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html)
 
 **Users**
+* A user who wants to get a more accurate look at what their retirement benefits will look like
+  * Probably closer to retirement age
+  * Willing to spend the extra time to enter in all of this information
+  * What types of users use this calculator? How often?
 
 **Takeaways**
-* Recommends users to use the calculator in the authenticated portion of the site.
 * UX
   * Lots of call outs, warnings and text formatting :(
   * I guess the results are on the same page as the questions to allow users to go back and change their answer
@@ -260,7 +268,7 @@ The next section talks about pensions, which aren't too complicated to understan
 **Next Steps**
 * Break these questions into multiple pages
 * Don't distract the user with lots of warnings and technical text, let them input the information
-
+* Should the authenticated calculator be linked to from here?
 
 ![Date of Birth](images/beneCalcdob.png)
 
@@ -315,16 +323,16 @@ The next section talks about pensions, which aren't too complicated to understan
 [https://www.ssa.gov/benefits/retirement/planner/ageincrease.html](https://www.ssa.gov/benefits/retirement/planner/ageincrease.html)
 
 **User**
-* Users starting down the path of planning for retirement, regardless of age
-* Users who already made a plan for retirement but are confirming their life expectancy before committing to a decision
+* I'm not sure
 
 **Takeaways**
 * UX
-  * Pretty simple calculator
-* A good amount of text to explain the calculator
+  * Sigh
+  * Result is a table of numbers that isn't very easy to digest
 
 **Next Steps**
-* I am not 100% sure if this would be better in another calculator or serves a purpose as an ad hoc calculator.
+* Rework this entire calculator and combine it with something else
+* This seems redundant
 
 ![ageCalc](images/retirementAgeCalc.png)
 
@@ -338,17 +346,15 @@ The next section talks about pensions, which aren't too complicated to understan
 [https://www.ssa.gov/OACT/COLA/RTeffect.html](https://www.ssa.gov/OACT/COLA/RTeffect.html)
 
 **User**
-* A user who wants to get a more accurate look at what their retirement benefits will look like
-  * Probably closer to retirement age
-  * Willing to spend the extra time to enter in all of this information
-  * What types of users use this calculator? How often?
+* A user who is working this year and eligible for retirement or survivors benefits this year
 
 **Takeaways**
-* UX
-
+* The title for the calculator isn't descriptive
+* 
 
 
 **Next Steps**
+* It asks for estimated earnings, but that could probably be something we could help discover
 
 ![Retirement Earnings Test Calculator](images/earningsTestCalc.png)
 
