@@ -2,6 +2,7 @@
 * [Product Questions to Answer](#unsolvedQuestions)
 * [Product Goals](#goals)
 * [Who Are We Building For?](#user)
+* [Solution](#solution)
 * [Out of Scope](#outOfScope)
 * [Prepare for Retirement](#prepare)
   * [Prepare Page Summary](#summary)
@@ -26,6 +27,9 @@
 * Do we want to continue to support multiple calculators to allow users to get the information they need quickly?
 * How many times does a user come back and reuse a calculator?
 * Could we add functionality to save the results or email the results so they don't have to do the calculator again?
+* How accurate of an estimation do users in the unauthenticated space need?
+* How much time do users set aside for this?
+* Where are they estimating this information? (like physically)
 
 [back to top](#top)
 
@@ -43,6 +47,23 @@
 * Users who are near retirement and had a life event which could change their benefit
 * Users who are 10-15 years from retirement, but want to adjust their savings plan accordingly
 * Users who are near retirement age, but want to know how their benefits would change if they retired earlier or later
+
+[back to top](#top)
+
+# <a name="problem"></a>User Problems
+* I don't know how social security retirement works
+* There are a lot of options
+* I don't know what I'll need to get the information I'm looking for
+* I can't log into My Social Security
+
+# <a name="solution"></a>Solution
+
+[Mural board](https://app.mural.co/t/usdigitalservice0135/m/usdigitalservice0135/1631911587356/30797d8cab2a09dddf5bb8dcffaf64f2a987a890?sender=u07f6bf104eabaebba0153991)
+
+* Create a flow which prepares a user on what he/she needs and directs them appropriately to the current calculator
+  * Ask them a few questions up front and see if they are looking for information about their situation or trying to get an estimate
+  * Send the user to the correct page
+  * An answer should be saved across pages/calculators so the user doesn't have to input them in multiple times.
 
 [back to top](#top)
 
