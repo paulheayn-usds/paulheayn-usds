@@ -122,7 +122,8 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ## <a name="pensionsAndWindfalls"></a>Pensions and Windfalls
 **[Windfall Elimination Provision(WEP)](https://www.ssa.gov/benefits/retirement/planner/wep.html)**
-* If you receive a pension outside of social security, it could reduce the social security benefit
+* Receiving income that doesn't withold for SS taxes and gives you a pension could lower SS benefits
+* Process is to break life earnings into three groups and apply a multiple on each group, then check if the person is retiring early, on time or late and apply another multiple on to the benefits 
 
 [back to top](#top)
 
