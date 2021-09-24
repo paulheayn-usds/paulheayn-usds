@@ -58,12 +58,14 @@
 
 # <a name="solution"></a>Solution
 
-[Mural board](https://app.mural.co/t/usdigitalservice0135/m/usdigitalservice0135/1631911587356/30797d8cab2a09dddf5bb8dcffaf64f2a987a890?sender=u07f6bf104eabaebba0153991)
-
 * Create a flow which prepares a user on what he/she needs and directs them appropriately to the current calculator
   * Ask them a few questions up front and see if they are looking for information about their situation or trying to get an estimate
   * Send the user to the correct page
   * An answer should be saved across pages/calculators so the user doesn't have to input them in multiple times.
+
+  ![Mural Board on possible flow](images/muralv1.png)
+
+  [Mural board](https://app.mural.co/t/usdigitalservice0135/m/usdigitalservice0135/1631911587356/30797d8cab2a09dddf5bb8dcffaf64f2a987a890?sender=u07f6bf104eabaebba0153991)
 
 [back to top](#top)
 
