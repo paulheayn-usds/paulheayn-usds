@@ -51,7 +51,7 @@
 
 # <a name="prepare"></a>Prepare for Retirement
 
-# <a name="summary"></a>Prepare Page Summary
+# <a name="summary"></a>Prepare Summary
 The current landing page has an explanation of how it works and eligibility and when you can retire. Its a lot of text and I think a lot of the text could be paired down or converted into explanatory images/infographics
 
 It gets tricky when the page starts to talk about edge cases - military, farm work, self-employed, etc. There might be a small number of people who fit multiple cases, but I think for the majority of the users, we could show contextual information.
