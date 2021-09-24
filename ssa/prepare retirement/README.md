@@ -565,7 +565,7 @@ The next section talks about pensions, which aren't too complicated to understan
 # <a name="todo"></a>To Do
 1. ~~Map out current calculators~~
 2. Diagram current prepare process
-3. Write first draft on requirements
+3. ~~Write first draft on requirements~~
 4. Go back and look into survivor benefits: https://www.ssa.gov/benefits/survivors/
 
 [back to top](#top)
