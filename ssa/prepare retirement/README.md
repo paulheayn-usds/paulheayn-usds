@@ -73,7 +73,7 @@
 
 [back to top](#top)
 
-# <a name="prepare"></a>Prepare for Retirement
+# <a name="prepare"></a>Notes from "Prepare for Retirement" web pages
 
 # <a name="summary"></a>Prepare Summary
 The current landing page has an explanation of how it works and eligibility and when you can retire. Its a lot of text and I think a lot of the text could be paired down or converted into explanatory images/infographics
