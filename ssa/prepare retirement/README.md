@@ -36,12 +36,15 @@
 * We want users to complete an estimate if they start one
 * We want users to understand the next steps they need to take
 
+[back to top](#top)
+
 # <a name="users"></a>Who Are We Building For? (these are guesses)
 * Users who can't get into the authenticated portion of My Social Security
 * Users who are near retirement and had a life event which could change their benefit
 * Users who are 10-15 years from retirement, but want to adjust their savings plan accordingly
 * Users who are near retirement age, but want to know how their benefits would change if they retired earlier or later
 
+[back to top](#top)
 
 # <a name="outOfScope"></a>Out of Scope
 * [Retirement Estimator](https://www.ssa.gov/benefits/retirement/estimator.html) - This requires authentication
@@ -84,9 +87,14 @@ The next section talks about pensions, which aren't too complicated to understan
 * $150 or more in cash per calendar year should be reported
 * Paid less than $150 in cash, but employer agricultural labor is $2,500 or more for the calendar year
 * Seasonal workers qualify if commute to work daily, paid on piece-rate basis, employed less than 13 weeks in the last year, and paid at least $150
+
+[back to top](#top)
+
 **[Federal Workers](https://www.ssa.gov/benefits/retirement/planner/fedgovees.html)**
 * Gov't employees from 1983 or earlier didn't pay social security and were on the Civil Service Retirement System(CSRS), which provided retirement
 * If you stay on CSRS you can't get Social Security retirement benefits but you are covered under medicare
+
+[back to top](#top)
 
 **[Military](https://www.ssa.gov/benefits/retirement/planner/veterans.html)**
 * Can get both military retirement and social security benefits
@@ -103,15 +111,21 @@ The next section talks about pensions, which aren't too complicated to understan
   * Navy
   * Commissioned Officer in the Public Health Service (PHS)
 
+[back to top](#top)
+
 **[Non-profit Employees](https://www.ssa.gov/benefits/retirement/planner/religious.html)**
 * If you earned more than $100 from a nonprofit or religious org, you have to pay social security taxes
 * Some religious groups do not have to pay the tax and will not participate in social security benefits or medicare (amish and memonite) [[source](https://www.ssa.gov/OP_Home/handbook/handbook.11/handbook-1128.html)]
+
+[back to top](#top)
 
 **[Railroad Earnings](https://www.ssa.gov/benefits/retirement/planner/railroad.html)**
 * Railroad (RR) workers receive a pension
 * Railroad Retirement Board keeps track of Earnings
 * If worked in RR industry for less than 10 years and have less than 5 years of RR earnings after 1995, railroad earnings will be counted in social security credits
 * If 10 or more years in RR and 5 or more years after 1995, you could qualify for a Railroad pension and RR earnings won't be calculated for determining social security credits
+
+[back to top](#top)
 
 **[Self-Employed](https://www.ssa.gov/benefits/retirement/planner/netearns.html)**
 * Net earnings need to be reported to SSA and IRS
@@ -127,9 +141,13 @@ The next section talks about pensions, which aren't too complicated to understan
   * Schedule SE
 * If you don't owe income tax, you must still pay self-employment social security tax.
 
+[back to top](#top)
+
 **[State/Local Government Employee](https://www.ssa.gov/benefits/retirement/planner/stateandlocal.html)**
 * If covered by state/local pension & social security, you pay social security and medicare taxes
 * If only covered by state/local plan, you don't pay social security taxes
+
+[back to top](#top)
 
 **[Work Outside the US](https://www.ssa.gov/benefits/retirement/planner/international.html)**
 * US has international agreements with a number of countries so you don't have to pay social security to both countries
@@ -173,7 +191,6 @@ The next section talks about pensions, which aren't too complicated to understan
   * No main call to action
   * calculator hidden on the page
 * Tons of explanatory text that could most likely be explained differently or before a user gets to the calculator
-
 
 **Next Steps**
 * I have no idea how often this gets used
