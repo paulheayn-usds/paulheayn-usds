@@ -1,7 +1,10 @@
 # <a name="top"></a>Contents
-* [Summary](#summary)
+* [Product Questions to Answer](#unsolvedQuestions)
+* [Product Goals](#goals)
+* [Who Are We Building For?](#user)
 * [Out of Scope](#outOfScope)
 * [Prepare for Retirement](#prepare)
+  * [Prepare Page Summary](#summary)
   * [How it works](#howItWorks)
   * [Eligibility](#eligibility)
   * [Starting Benefits](#startingBenefits)
@@ -18,20 +21,26 @@
   * [Retirement Earnings Test Calculator](#earningsTestCalc)
   * [SSA Benefit Eligibility Screening Tool](#bestCalc)
   * [Windfall Elimination Provision](#windfallCalc)
-* [To Do](#todo)
 
-
-# <a name="summary"></a>Summary
-The current landing page has an explanation of how it works and eligibility and when you can retire. Its a lot of text and I think a lot of the text could be paired down or converted into explanatory images/infographics
-
-It gets tricky when the page starts to talk about edge cases - military, farm work, self-employed, etc. There might be a small number of people who fit multiple cases, but I think for the majority of the users, we could show contextual information.
-
-The next section talks about pensions, which aren't too complicated to understand, but Windfall Elimination Provision is pretty complicated - I still have no unpacked this portion. Again, we might not need to show this information if it is not pertinent to the user.
-
-# Questions to Answer
+# <a name="unsolvedQuestions"></a>Product Questions to Answer
 * Do we want to continue to support multiple calculators to allow users to get the information they need quickly?
 * How many times does a user come back and reuse a calculator?
 * Could we add functionality to save the results or email the results so they don't have to do the calculator again?
+
+[back to top](#top)
+
+# <a name="goals"></a>Product Goals
+* We want users to understand how their social security benefits are calculated (do we?)
+* We want users to get an accurate estimate
+* We want users to get the right information in the most efficient amount of time
+* We want users to complete an estimate if they start one
+* We want users to understand the next steps they need to take
+
+# <a name="users"></a>Who Are We Building For? (these are guesses)
+* Users who can't get into the authenticated portion of My Social Security
+* Users who are near retirement and had a life event which could change their benefit
+* Users who are 10-15 years from retirement, but want to adjust their savings plan accordingly
+* Users who are near retirement age, but want to know how their benefits would change if they retired earlier or later
 
 
 # <a name="outOfScope"></a>Out of Scope
@@ -41,6 +50,15 @@ The next section talks about pensions, which aren't too complicated to understan
 [back to top](#top)
 
 # <a name="prepare"></a>Prepare for Retirement
+
+# <a name="summary"></a>Prepare Page Summary
+The current landing page has an explanation of how it works and eligibility and when you can retire. Its a lot of text and I think a lot of the text could be paired down or converted into explanatory images/infographics
+
+It gets tricky when the page starts to talk about edge cases - military, farm work, self-employed, etc. There might be a small number of people who fit multiple cases, but I think for the majority of the users, we could show contextual information.
+
+The next section talks about pensions, which aren't too complicated to understand, but Windfall Elimination Provision is pretty complicated - I still have no unpacked this portion. Again, we might not need to show this information if it is not pertinent to the user.
+
+[back to top](#top)
 
 ## <a name="howItWorks"></a>How it works
 * Who gets it - older people, disabled people, survivors, dependents of beneficiaries
@@ -123,14 +141,9 @@ The next section talks about pensions, which aren't too complicated to understan
 ## <a name="pensionsAndWindfalls"></a>Pensions and Windfalls
 **[Windfall Elimination Provision(WEP)](https://www.ssa.gov/benefits/retirement/planner/wep.html)**
 * Receiving income that doesn't withold for SS taxes and gives you a pension could lower SS benefits
-* Process is to break life earnings into three groups and apply a multiple on each group, then check if the person is retiring early, on time or late and apply another multiple on to the benefits 
+* Process is to break life earnings into three groups and apply a multiple on each group, then check if the person is retiring early, on time or late and apply another multiple on to the benefits
 
 [back to top](#top)
-
-# Come back later for help???
-```
- Need help in this area
-```
 
 **[Government Pension Offset](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)**
 * Are you a widow of a federal, state, or local government employee receiving a pension? If so, it could reduce your social security benefits
@@ -374,7 +387,7 @@ The next section talks about pensions, which aren't too complicated to understan
 ![Benefit Eligibility Screening Tool](images/BEST.png)
 
 **Users**
-*
+* Users who want to get a general idea of what benefits they are eligible for
 
 **Takeaways**
 * This isn't in the calculator section, its on the 'Additional Information' sidebar on the 'Learn About Retirement' page
