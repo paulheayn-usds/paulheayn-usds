@@ -197,8 +197,8 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
-## <a name="calculators"></a>Calculators
-### <a name="spouseBeneCalc"></a>[Benefits for Spouses](https://www.ssa.gov/OACT/quickcalc/spouse.html)
+# <a name="calculators"></a>Calculators
+## <a name="spouseBeneCalc"></a>[Benefits for Spouses](https://www.ssa.gov/OACT/quickcalc/spouse.html)
 
 [https://www.ssa.gov/OACT/quickcalc/spouse.html](https://www.ssa.gov/OACT/quickcalc/spouse.html)
 
@@ -224,7 +224,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="gpoCalc"></a>[Government Pension Offset Calculator](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)
+## <a name="gpoCalc"></a>[Government Pension Offset Calculator](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)
 
 [https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)
 
@@ -251,7 +251,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="lateOrEarlyCalc"></a>[Late or Early Retirement](https://www.ssa.gov/OACT/quickcalc/early_late.html)
+## <a name="lateOrEarlyCalc"></a>[Late or Early Retirement](https://www.ssa.gov/OACT/quickcalc/early_late.html)
 [https://www.ssa.gov/OACT/quickcalc/early_late.html](https://www.ssa.gov/OACT/quickcalc/early_late.html)
 
 **Users**
@@ -277,7 +277,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="expectancyCalc"></a>[Life Expectancy Calculator](https://www.ssa.gov/OACT/population/longevity.html)
+## <a name="expectancyCalc"></a>[Life Expectancy Calculator](https://www.ssa.gov/OACT/population/longevity.html)
 [https://www.ssa.gov/OACT/population/longevity.html](https://www.ssa.gov/OACT/population/longevity.html)
 
 **Users**
@@ -299,7 +299,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="beneCalc"></a>[Online Benefits Calculator](https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html) - Same as WEP Calculator
+## <a name="beneCalc"></a>[Online Benefits Calculator](https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html) - Same as WEP Calculator
 [https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html](https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html)
 
 **Users**
@@ -343,7 +343,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="quickCalc"></a>[Quick Calculator](https://www.ssa.gov/OACT/quickcalc/)
+## <a name="quickCalc"></a>[Quick Calculator](https://www.ssa.gov/OACT/quickcalc/)
 [https://www.ssa.gov/OACT/quickcalc/](https://www.ssa.gov/OACT/quickcalc/)
 
 **Users**
@@ -370,7 +370,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="ageCalc"></a>[Retirement Age Calculator](https://www.ssa.gov/benefits/retirement/planner/ageincrease.html)
+## <a name="ageCalc"></a>[Retirement Age Calculator](https://www.ssa.gov/benefits/retirement/planner/ageincrease.html)
 [https://www.ssa.gov/benefits/retirement/planner/ageincrease.html](https://www.ssa.gov/benefits/retirement/planner/ageincrease.html)
 
 **User**
@@ -393,7 +393,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="earningsTestCalc"></a>[Retirement Earnings Test Calculator](https://www.ssa.gov/OACT/COLA/RTeffect.html)
+## <a name="earningsTestCalc"></a>[Retirement Earnings Test Calculator](https://www.ssa.gov/OACT/COLA/RTeffect.html)
 [https://www.ssa.gov/OACT/COLA/RTeffect.html](https://www.ssa.gov/OACT/COLA/RTeffect.html)
 
 **User**
@@ -419,7 +419,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="bestCalc"></a>[SSA Benefit Eligibility Screening Tool](https://ssabest.benefits.gov)
+## <a name="bestCalc"></a>[SSA Benefit Eligibility Screening Tool](https://ssabest.benefits.gov)
 [https://ssabest.benefits.gov](https://ssabest.benefits.gov)
 
 ![Benefit Eligibility Screening Tool](images/BEST.png)
@@ -499,7 +499,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="windfallCalc"></a>[Windfall Elimination Provision](https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html)
+## <a name="windfallCalc"></a>[Windfall Elimination Provision](https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html)
 [https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html](https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html)
 
 **Users**
