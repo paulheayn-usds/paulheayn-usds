@@ -233,8 +233,7 @@ The next section talks about pensions, which aren't too complicated to understan
 * Users who already made a plan for retirement but are confirming their life expectancy before committing to a decision
 
 **Takeaways**
-* UX
-  * Pretty simple calculator
+* Pretty simple calculator
 * A good amount of text to explain the calculator
 
 **Next Steps**
@@ -350,23 +349,38 @@ The next section talks about pensions, which aren't too complicated to understan
 
 **Takeaways**
 * The title for the calculator isn't descriptive
-* 
+* If there is a reduction, there is a lot of explanation and calculation a user has to uncover
 
 
 **Next Steps**
+* Is there a way to make the calculation details more easy to understand?
 * It asks for estimated earnings, but that could probably be something we could help discover
+* Maybe have a different branch/section for people who want to do a early or late retirement
 
 ![Retirement Earnings Test Calculator](images/earningsTestCalc.png)
 
 ![Retirement Earnings Test Result](images/estimateBenefitReductionResult.png)
+
+![No Benefits Due to High Earnings](images/estimateBenefitsReductionResult-NoBene.png)
 
 [back to top](#top)
 
 ***
 
 ### <a name="bestCalc"></a>[SSA Benefit Eligibility Screening Tool](https://ssabest.benefits.gov)
+[https://ssabest.benefits.gov](https://ssabest.benefits.gov)
 
 ![Benefit Eligibility Screening Tool](images/BEST.png)
+
+**Users**
+*
+
+**Takeaways**
+* This isn't in the calculator section, its on the 'Additional Information' sidebar on the 'Learn About Retirement' page
+* "Oh, this is part of benefits.gov, that is why it's not on the SSA site and why it seems so much better"
+
+**Next Steps**
+* Look at this tool as inspiration
 
 *Questions from Benefit Eligibility Screening Tool*
 * What is your date of birth?
@@ -399,12 +413,54 @@ The next section talks about pensions, which aren't too complicated to understan
   * Federal Pell Grant
   * A private traditional pension plan that has ended
   * None of the above
+* Are you receiving any of the following? (Check all that apply.)
+  * Social Security retirement benefits
+  * Supplemental Security Income (SSI) benefits
+  * Social Security child’s benefits
+  * Railroad retirement or disability benefits
+  * Social Security spouse’s or divorced spouse’s benefits
+  * Social Security widow or widower’s benefits
+  * Social Security parent’s benefits
+  * I do not receive any of these benefits
+* Have you ever worked and paid U.S. Social Security taxes?
+* Choose the option that best describes your current student status?
+  * Not a student
+  * Grade K through 12
+  * College/university/graduate school
+  * Technical or vocation school
+* Do you have end-stage renal disease?
+* Have you ever worked for the U.S. government?
+* What type of benefits are you looking for? (Check all that apply)
+  * Disability Assistance
+  * Family
+  * insurance
+  * medicare
+  * retirement
+  * Spouse & Widow(er)
+  * Supplemental Security Income
+  * Veterans
+* Did you receive SSI payment in December 1998 or in any month in 1999?
+* _Former Spouse #1:_ What is your former spouse's date of birth?
+![BEST Results - None](images/BESTResults.png)
 
 [back to top](#top)
 
 ***
 
 ### <a name="windfallCalc"></a>[Windfall Elimination Provision](https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html)
+[https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html](https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html)
+
+**Users**
+* Anyone who is receiving a pension and has all of their earnings handy
+* Users who can't access their My Social Security but still want a relatively accurate estimate of their benefits
+
+**Takeaways**
+* There is a block of form that contains 70+ text fields. If people are not receiving perfectly accurate information because it isn't what SSA has in the system, why would we want users to enter it in here?
+* See [Benefits Calculator](#beneCalc)
+
+**Next Steps**
+* There is a sentence in here that states " If all of your pension income is covered by Social Security, you do not need to use this calculator and you can use the more straightforward Online Calculator instead." - well, we should only show the user this form _if_ they might be affected by WEP
+* Is there a quicker way to access all of their earnings?
 
 ![Date of Birth](images/WEPdob.png)
 ![Age At Retirement](images/WEPageAtRetirement.png)
