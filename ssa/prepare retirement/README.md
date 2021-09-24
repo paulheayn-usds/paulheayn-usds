@@ -92,10 +92,14 @@ The next section talks about pensions, which aren't too complicated to understan
 * Future generation pays for your SSA when you retire
 * On average, 40% of retirement comes from
 
+[back to top](#top)
+
 ## <a name="eligibility"></a>Eligibility
 * Based on a credit system, need 40 credits to qualify
 * 40 credits usually equals 10 years of work
 * Earning more credits doesn't equal more benefits - credits are used for *eligibility only*
+
+[back to top](#top)
 
 ## <a name="startingBenefits"></a>Starting benefits
 * Early retirement - starts at 62, but reduce benefits
