@@ -11,7 +11,7 @@
   * [Benefits for Spouses](#spouseBeneCalc)
   * [Government Pension Offset Calculator](#gpoCalc)
   * [Late or Early Retirement](#lateOrEarlyCalc)
-  * [Life Exceptancy Calculator](#expectancyCalc)
+  * [Life Expectancy Calculator](#expectancyCalc)
   * [Online Benefits Calculator](#beneCalc)
   * [Quick Calculator](#quickCalc)
   * [Retirement Age Calculator](#ageCalc)
@@ -225,7 +225,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 ***
 
-### <a name="expectancyCalc"></a>[Life Exceptancy Calculator](https://www.ssa.gov/OACT/population/longevity.html)
+### <a name="expectancyCalc"></a>[Life Expectancy Calculator](https://www.ssa.gov/OACT/population/longevity.html)
 [https://www.ssa.gov/OACT/population/longevity.html](https://www.ssa.gov/OACT/population/longevity.html)
 
 **Users**
