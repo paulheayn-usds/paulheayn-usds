@@ -90,18 +90,18 @@
 # <a name="calculators"></a>Calculators
 
 ## <a name="calcSummary"></a>Calculator Summary
-| Calculator Name | Description | Screenshots | Comments |
+| Calculator Name | Screenshots | Comments |
 | --- | --- | --- | ---|
-| [Benefits for Spouses](#spouseBeneCalc) | | [Survey Image](images/benefitsForSpouseResults.png) | Do users use this? |
-| [Government Pension Offset Calculator](#gpoCalc) | | [Survey Image](images/gpoCalc.png) | If you have a specialized use case, like a pension, should you be calling the field office?|
-| [Late or Early Retirement](#lateOrEarlyCalc) | | [Survey Image](images/earlyOrLateRetirement.png) | |
-| [Life Expectancy Calculator](#expectancyCalc) | | [Survey Image](images/lifeExpectancyGenderAndAge.png), [Result Image](images/lifeExpectancyResult.png) | |
-| [Online Benefits Calculator](#beneCalc) | | [Date of Birth Image](images/beneCalcdob.png), [Retirement Age Image](images/beneCalcRetirementAge.png), [Today or Future Dollars Image](images/beneCalctodayOrFuture.png), [Annual Earnings Image](images/beneCalcAnnualEarnings.png), [2021 Earnings Image](images/beneCalc2021Earnings.png), [2022 Earnings Image](images/beneCalc2022Earnings.png), [Survey Results Image](images/beneCalcCalculate.png), [Benefits Eligibility Image](images/beneCalcBenefitEligibilityResults.png), [Benefits Estimate Image](images/beneCalcBenefitestimatesResults.png)| |
-| [Quick Calculator](#quickCalc) | | [Survey Image](images/quickCalc.png), [Quick Calculator Results Image](images/quickCalcResults.png) | |
-| [Retirement Age Calculator](#ageCalc) | | [Survey Image](images/retirementAgeCalc.png), [Result Image](images/retirementAgeResult.png) | |
-| [Retirement Earnings Test Calculator](#earningsTestCalc) | | [Survey Image](images/earningsTestCalc.png), [Result Image 1](images/estimateBenefitReductionResult.png), [Result Image 2](images/estimateBenefitsReductionResult-NoBene.png) | |
+| [Benefits for Spouses](#spouseBeneCalc) | [Survey Image](images/benefitsForSpouseResults.png) | Do users use this? |
+| [Government Pension Offset Calculator](#gpoCalc) | [Survey Image](images/gpoCalc.png) | If you have a specialized use case, like a pension, should you be calling the field office?|
+| [Late or Early Retirement](#lateOrEarlyCalc) | [Survey Image](images/earlyOrLateRetirement.png) | |
+| [Life Expectancy Calculator](#expectancyCalc) | [Survey Image](images/lifeExpectancyGenderAndAge.png), [Result Image](images/lifeExpectancyResult.png) |
+| [Online Benefits Calculator](#beneCalc) | [Date of Birth Image](images/beneCalcdob.png), [Retirement Age Image](images/beneCalcRetirementAge.png), [Today or Future Dollars Image](images/beneCalctodayOrFuture.png), [Annual Earnings Image](images/beneCalcAnnualEarnings.png), [2021 Earnings Image](images/beneCalc2021Earnings.png), [2022 Earnings Image](images/beneCalc2022Earnings.png), [Survey Results Image](images/beneCalcCalculate.png), [Benefits Eligibility Image](images/beneCalcBenefitEligibilityResults.png), [Benefits Estimate Image](images/beneCalcBenefitestimatesResults.png)| |
+| [Quick Calculator](#quickCalc) | [Survey Image](images/quickCalc.png), [Quick Calculator Results Image](images/quickCalcResults.png) | |
+| [Retirement Age Calculator](#ageCalc) | [Survey Image](images/retirementAgeCalc.png), [Result Image](images/retirementAgeResult.png) | |
+| [Retirement Earnings Test Calculator](#earningsTestCalc) | [Survey Image](images/earningsTestCalc.png), [Result Image 1](images/estimateBenefitReductionResult.png), [Result Image 2](images/estimateBenefitsReductionResult-NoBene.png) | |
 | [SSA Benefit Eligibility Screening Tool](#bestCalc) | | [Survey Image](images/BEST.png), [Results Image](images/BESTResults.png) | |
-| [Windfall Elimination Provision](#pensionsAndWindfalls) | | [Date of Birth Image](images/WEPdob.png), [Age At Retirement Image](images/WEPageAtRetirement.png), [Today or Future Dollars Image](images/WEPtodayOrFutureDollars.png), [Non-covered Pension Amount Image](images/WEPNon-Covered.png), [Annual Earnings Image](images/WEPAnnualEarnings.png), [2021 Earnings Image](images/WEP2021Earnings.png), [2022 Earnings Image](images/WEP2022Earnings.png), [Calculate Button Image](images/WEPCalculate.png), [Benefit Eligibility Result Image](images/WEPBenefitEligibilityResult.png), [Benefit Estimator Result Image](images/WEPBenefitEstimatorResult.png) | |
+| [Windfall Elimination Provision](#pensionsAndWindfalls) | [Date of Birth Image](images/WEPdob.png), [Age At Retirement Image](images/WEPageAtRetirement.png), [Today or Future Dollars Image](images/WEPtodayOrFutureDollars.png), [Non-covered Pension Amount Image](images/WEPNon-Covered.png), [Annual Earnings Image](images/WEPAnnualEarnings.png), [2021 Earnings Image](images/WEP2021Earnings.png), [2022 Earnings Image](images/WEP2022Earnings.png), [Calculate Button Image](images/WEPCalculate.png), [Benefit Eligibility Result Image](images/WEPBenefitEligibilityResult.png), [Benefit Estimator Result Image](images/WEPBenefitEstimatorResult.png) | |
 
 
 
