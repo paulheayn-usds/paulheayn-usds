@@ -24,7 +24,7 @@
   * [Windfall Elimination Provision](#windfallCalc)
 * [Notes](#notes)
   * [To Do](#todo)
-  * [Calculator Funnels](#funnels)
+  * [Calculator Funnels to Build](#funnels)
 
 # <a name="unsolvedQuestions"></a>Product Questions to Answer
 * Do we want to continue to support multiple calculators to allow users to get the information they need quickly?
@@ -598,7 +598,7 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
-# <a name="funnels"></a>Calculator funnels
+# <a name="funnels"></a>Calculator Funnels to Build
 * % of visitors entering a calculator from the prepare page
 * Calculator completion rate
   * Benefits for Spouses
