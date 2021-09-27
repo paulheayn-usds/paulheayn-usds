@@ -100,7 +100,7 @@
 | [Quick Calculator](#quickCalc) | [Survey Image](images/quickCalc.png), [Quick Calculator Results Image](images/quickCalcResults.png) | |
 | [Retirement Age Calculator](#ageCalc) | [Survey Image](images/retirementAgeCalc.png), [Result Image](images/retirementAgeResult.png) | |
 | [Retirement Earnings Test Calculator](#earningsTestCalc) | [Survey Image](images/earningsTestCalc.png), [Result Image 1](images/estimateBenefitReductionResult.png), [Result Image 2](images/estimateBenefitsReductionResult-NoBene.png) | |
-| [SSA Benefit Eligibility Screening Tool](#bestCalc) | | [Survey Image](images/BEST.png), [Results Image](images/BESTResults.png) | |
+| [SSA Benefit Eligibility Screening Tool](#bestCalc) | [Survey Image](images/BEST.png), [Results Image](images/BESTResults.png) | |
 | [Windfall Elimination Provision](#pensionsAndWindfalls) | [Date of Birth Image](images/WEPdob.png), [Age At Retirement Image](images/WEPageAtRetirement.png), [Today or Future Dollars Image](images/WEPtodayOrFutureDollars.png), [Non-covered Pension Amount Image](images/WEPNon-Covered.png), [Annual Earnings Image](images/WEPAnnualEarnings.png), [2021 Earnings Image](images/WEP2021Earnings.png), [2022 Earnings Image](images/WEP2022Earnings.png), [Calculate Button Image](images/WEPCalculate.png), [Benefit Eligibility Result Image](images/WEPBenefitEligibilityResult.png), [Benefit Estimator Result Image](images/WEPBenefitEstimatorResult.png) | |
 
 
