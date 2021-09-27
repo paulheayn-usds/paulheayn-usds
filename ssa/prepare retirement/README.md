@@ -25,21 +25,53 @@
 
 # <a name="unsolvedQuestions"></a>Product Questions to Answer
 * Do we want to continue to support multiple calculators to allow users to get the information they need quickly?
+  * No, we should simplify it as much as possible and reduce options
 * How many times does a user come back and reuse a calculator?
+  * According to Michelle, many users give up and call the office.
 * Could we add functionality to save the results or email the results so they don't have to do the calculator again?
 * How accurate of an estimation do users in the unauthenticated space need?
 * How much time do users set aside for this?
 * Where are they estimating this information? (like physically)
 
+# <a name="funnels"></a>Calculator funnels
+* % of visitors entering a calculator from the prepare page
+* Calculator completion rate
+  * Benefits for Spouses
+    * Start Page: https://www.ssa.gov/OACT/quickcalc/spouse.html
+    * Results Page: No results page, check 'Compute' button pressed event
+  * Government Pension Offset Calculator
+    * Start Page: https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html
+    * Results Page: No results page, check for 'Compute' button pressed event
+  * Late or Early Retirement
+    * Start Page: https://www.ssa.gov/OACT/quickcalc/early_late.html
+    * Results Page: No results page, check for 'Compute' button pressed event
+  * Life Expectancy Calculator
+    * Start Page: https://www.ssa.gov/OACT/population/longevity.html
+    * Results Page: https://www.ssa.gov/cgi-bin/longevity.cgi
+  * Online Benefits Calculator
+    * https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html
+    * Results Page: No results page, check for 'Calculate Benefit' button pressed event
+  * Quick Calculator
+    * Start Page: https://www.ssa.gov/OACT/quickcalc/
+    * Results Page: https://www.ssa.gov/cgi-bin/benefit6.cgi
+  * Retirement Age Calculator
+    * Start Page: https://www.ssa.gov/benefits/retirement/planner/ageincrease.html
+    * Results Page: https://www.ssa.gov/benefits/retirement/planner/\*.html (1943.html, 1955.html, 1956.html, 1957.html, 1958.html, 1959.html, 1960.html)
+  * Retirement Earnings Test Calculator
+    * https://www.ssa.gov/OACT/COLA/RTeffect.html
+  * Windfall Elimination Provision
+    * https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html
+
 [back to top](#top)
 
 # <a name="goals"></a>Product Goals
+* We want to reduce field office call volume?
 * We want users to understand how their social security benefits are calculated (do we?)
 * We want users to get an accurate estimate
 * We want users to get the right information in the most efficient amount of time
 * We want users to complete an estimate if they start one
 * We want users to understand the next steps they need to take
-* We want to bring phone volume down (how can we impact this?)
+
 
 [back to top](#top)
 
