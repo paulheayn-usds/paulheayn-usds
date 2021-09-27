@@ -22,6 +22,9 @@
   * [Retirement Earnings Test Calculator](#earningsTestCalc)
   * [SSA Benefit Eligibility Screening Tool](#bestCalc)
   * [Windfall Elimination Provision](#windfallCalc)
+* [Notes](#notes)
+  * [To Do](#todo)
+  * [Calculator Funnels](#funnels)
 
 # <a name="unsolvedQuestions"></a>Product Questions to Answer
 * Do we want to continue to support multiple calculators to allow users to get the information they need quickly?
@@ -33,34 +36,7 @@
 * How much time do users set aside for this?
 * Where are they estimating this information? (like physically)
 
-# <a name="funnels"></a>Calculator funnels
-* % of visitors entering a calculator from the prepare page
-* Calculator completion rate
-  * Benefits for Spouses
-    * Start Page: https://www.ssa.gov/OACT/quickcalc/spouse.html
-    * Results Page: No results page, check 'Compute' button pressed event
-  * Government Pension Offset Calculator
-    * Start Page: https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html
-    * Results Page: No results page, check for 'Compute' button pressed event
-  * Late or Early Retirement
-    * Start Page: https://www.ssa.gov/OACT/quickcalc/early_late.html
-    * Results Page: No results page, check for 'Compute' button pressed event
-  * Life Expectancy Calculator
-    * Start Page: https://www.ssa.gov/OACT/population/longevity.html
-    * Results Page: https://www.ssa.gov/cgi-bin/longevity.cgi
-  * Online Benefits Calculator
-    * https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html
-    * Results Page: No results page, check for 'Calculate Benefit' button pressed event
-  * Quick Calculator
-    * Start Page: https://www.ssa.gov/OACT/quickcalc/
-    * Results Page: https://www.ssa.gov/cgi-bin/benefit6.cgi
-  * Retirement Age Calculator
-    * Start Page: https://www.ssa.gov/benefits/retirement/planner/ageincrease.html
-    * Results Page: https://www.ssa.gov/benefits/retirement/planner/\*.html (1943.html, 1955.html, 1956.html, 1957.html, 1958.html, 1959.html, 1960.html)
-  * Retirement Earnings Test Calculator
-    * https://www.ssa.gov/OACT/COLA/RTeffect.html
-  * Windfall Elimination Provision
-    * https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html
+
 
 [back to top](#top)
 
@@ -595,14 +571,20 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
+# <a name="notes"></a>Notes
+
 ## Comments
 * The [Working outside the US](https://www.ssa.gov/international/totalization_agreements.html) section gets a little messy and might not be necessary to add the eligibility from [international agreements](https://www.ssa.gov/international/status.html)
 * This layout for 'other considerations' when planning retirement is actually a good breakdown of the checklists that a user needs to account for: [https://www.ssa.gov/benefits/retirement/planner/otherthings.html?tl=0%2C1%2C2%2C3%2C4](https://www.ssa.gov/benefits/retirement/planner/otherthings.html?tl=0%2C1%2C2%2C3%2C4)
+
+[back to top](#top)
 
 ## Parts of Retirement
 * Prepare for retirement
 * retirement landing page
 * Suspend payments
+
+[back to top](#top)
 
 # <a name="todo"></a>To Do
 1. ~~Map out current calculators~~
@@ -613,5 +595,38 @@ The next section talks about pensions, which aren't too complicated to understan
 6. ~~Set up kickoff meeting~~
 7. ~~Set up metrics meeting~~
 8. Make sure you have analytics on retirement
+
+[back to top](#top)
+
+# <a name="funnels"></a>Calculator funnels
+* % of visitors entering a calculator from the prepare page
+* Calculator completion rate
+  * Benefits for Spouses
+    * Start Page: https://www.ssa.gov/OACT/quickcalc/spouse.html
+    * Results Page: No results page, check 'Compute' button pressed event
+  * Government Pension Offset Calculator
+    * Start Page: https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html
+    * Results Page: No results page, check for 'Compute' button pressed event
+  * Late or Early Retirement
+    * Start Page: https://www.ssa.gov/OACT/quickcalc/early_late.html
+    * Results Page: No results page, check for 'Compute' button pressed event
+  * Life Expectancy Calculator
+    * Start Page: https://www.ssa.gov/OACT/population/longevity.html
+    * Results Page: https://www.ssa.gov/cgi-bin/longevity.cgi
+  * Online Benefits Calculator
+    * https://www.ssa.gov/benefits/retirement/planner/AnypiaApplet.html
+    * Results Page: No results page, check for 'Calculate Benefit' button pressed event
+  * Quick Calculator
+    * Start Page: https://www.ssa.gov/OACT/quickcalc/
+    * Results Page: https://www.ssa.gov/cgi-bin/benefit6.cgi
+  * Retirement Age Calculator
+    * Start Page: https://www.ssa.gov/benefits/retirement/planner/ageincrease.html
+    * Results Page: https://www.ssa.gov/benefits/retirement/planner/ 1943.html, 1955.html, 1956.html, 1957.html, 1958.html, 1959.html, or 1960.html
+  * Retirement Earnings Test Calculator
+    * Start Page: https://www.ssa.gov/OACT/COLA/RTeffect.html
+    * Results Page: https://www.ssa.gov/cgi-bin/retireTest.cgi
+  * Windfall Elimination Provision
+    * Start Page: https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html
+    * Results Page: No results page, check for 'Calculate Benefit' button pressed event
 
 [back to top](#top)
