@@ -39,6 +39,7 @@
 * We want users to get the right information in the most efficient amount of time
 * We want users to complete an estimate if they start one
 * We want users to understand the next steps they need to take
+* We want to bring phone volume down (how can we impact this?)
 
 [back to top](#top)
 
@@ -576,5 +577,9 @@ The next section talks about pensions, which aren't too complicated to understan
 2. Diagram current prepare process
 3. ~~Write first draft on requirements~~
 4. Go back and look into survivor benefits: https://www.ssa.gov/benefits/survivors/
+5. ~~Email SMEs and ask about popular calculators~~
+6. ~~Set up kickoff meeting~~
+7. ~~Set up metrics meeting~~
+8. Make sure you have analytics on retirement
 
 [back to top](#top)
