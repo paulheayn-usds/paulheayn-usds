@@ -1,5 +1,4 @@
 # <a name="top"></a>Contents
-* [Product Questions to Answer](#unsolvedQuestions)
 * [Product Goals](#goals)
 * [Who Are We Building For?](#user)
 * [Solution](#solution)
@@ -25,33 +24,26 @@
 * [Notes](#notes)
   * [To Do](#todo)
   * [Calculator Funnels to Build](#funnels)
+  * [Product Questions to Answer](#unsolvedQuestions)
 
-# <a name="unsolvedQuestions"></a>Product Questions to Answer
-* Do we want to continue to support multiple calculators to allow users to get the information they need quickly?
-  * No, we should simplify it as much as possible and reduce options
-* How many times does a user come back and reuse a calculator?
-  * According to Michelle, many users give up and call the office.
-* Could we add functionality to save the results or email the results so they don't have to do the calculator again?
-* How accurate of an estimation do users in the unauthenticated space need?
-* How much time do users set aside for this?
-* Where are they estimating this information? (like physically)
+# <a name="currentProcess"></a>Current Process
 
-
-
-[back to top](#top)
+1. Catalyst (birthday, friend, AARP mail) gets users interested in retirement
+2. Google 'plan for retirement' or some variation
+3. Click ssa.gov link to start to create My Social Security account to get accurate estimate
+4. Blocked from getting My Social Security account
+5. Go to the retirement section of SSA
+6. Tap 'Learn' although you don't want to learn because you came from an article where the information was condense for you
+7. Don't actually find the calculator section because its pretty hard to find, instead you call the field office number
 
 # <a name="goals"></a>Product Goals
-* We want to reduce field office call volume?
-* We want users to understand how their social security benefits are calculated (do we?)
-* We want users to get an accurate estimate
+* We want to reduce field office call volume
 * We want users to get the right information in the most efficient amount of time
-* We want users to complete an estimate if they start one
 * We want users to understand the next steps they need to take
-
 
 [back to top](#top)
 
-# <a name="users"></a>Who Are We Building For? (these are guesses)
+# <a name="users"></a>Who Are We Building For?
 * Users who can't get into the authenticated portion of My Social Security
 * Users who are near retirement and had a life event which could change their benefit
 * Users who are 10-15 years from retirement, but want to adjust their savings plan accordingly
@@ -61,8 +53,8 @@
 
 # <a name="problem"></a>User Problems
 * I don't know how social security retirement works
-* There are a lot of options
-* I don't know what I'll need to get the information I'm looking for
+* There are a lot of calculator options and I'm not sure which one to pick
+* I don't know what documents I'll need to get the information I'm looking for
 * I can't log into My Social Security
 
 # <a name="solution"></a>Solution
@@ -89,7 +81,7 @@
 
 # <a name="prepare"></a>Notes from "Prepare for Retirement" web pages
 
-# <a name="summary"></a>Prepare Summary
+## <a name="summary"></a>Prepare Summary
 The current landing page has an explanation of how it works and eligibility and when you can retire. Its a lot of text and I think a lot of the text could be paired down or converted into explanatory images/infographics
 
 It gets tricky when the page starts to talk about edge cases - military, farm work, self-employed, etc. There might be a small number of people who fit multiple cases, but I think for the majority of the users, we could show contextual information.
@@ -586,18 +578,6 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
-# <a name="todo"></a>To Do
-1. ~~Map out current calculators~~
-2. Diagram current prepare process
-3. ~~Write first draft on requirements~~
-4. Go back and look into survivor benefits: https://www.ssa.gov/benefits/survivors/
-5. ~~Email SMEs and ask about popular calculators~~
-6. ~~Set up kickoff meeting~~
-7. ~~Set up metrics meeting~~
-8. Make sure you have analytics on retirement
-
-[back to top](#top)
-
 # <a name="funnels"></a>Calculator Funnels to Build
 * % of visitors entering a calculator from the prepare page
 * Calculator completion rate
@@ -628,5 +608,29 @@ The next section talks about pensions, which aren't too complicated to understan
   * Windfall Elimination Provision
     * Start Page: https://www.ssa.gov/benefits/retirement/planner/anyPiaWepjs04.html
     * Results Page: No results page, check for 'Calculate Benefit' button pressed event
+
+[back to top](#top)
+
+# <a name="unsolvedQuestions"></a>Product Questions to Answer
+* Do we want to continue to support multiple calculators to allow users to get the information they need quickly?
+  * No, we should simplify it as much as possible and reduce options
+* How many times does a user come back and reuse a calculator?
+  * According to Michelle, many users give up and call the office.
+* Could we add functionality to save the results or email the results so they don't have to do the calculator again?
+* How accurate of an estimation do users in the unauthenticated space need?
+* How much time do users set aside for this?
+* Where are they estimating this information? (like physically)
+
+[back to top](#top)
+
+# <a name="todo"></a>To Do
+1. ~~Map out current calculators~~
+2. Diagram current prepare process
+3. ~~Write first draft on requirements~~
+4. Go back and look into survivor benefits: https://www.ssa.gov/benefits/survivors/
+5. ~~Email SMEs and ask about popular calculators~~
+6. ~~Set up kickoff meeting~~
+7. ~~Set up metrics meeting~~
+8. Make sure you have analytics on retirement
 
 [back to top](#top)
