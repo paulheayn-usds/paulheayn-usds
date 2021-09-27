@@ -1,6 +1,7 @@
 # <a name="top"></a>Contents
 * [Product Goals](#goals)
 * [Who Are We Building For?](#user)
+* [Current User Journey](#userJourney)
 * [Solution](#solution)
 * [Out of Scope](#outOfScope)
 * [Prepare for Retirement](#prepare)
@@ -11,6 +12,7 @@
   * [Edge Cases](#edgeCases)
   * [Pensions and Windfalls](#pensionsAndWindfalls)
 * [Calculator](#calculator)
+  * [Calculator Summary](#calcSummary)
   * [Benefits for Spouses](#spouseBeneCalc)
   * [Government Pension Offset Calculator](#gpoCalc)
   * [Late or Early Retirement](#lateOrEarlyCalc)
@@ -26,28 +28,27 @@
   * [Calculator Funnels to Build](#funnels)
   * [Product Questions to Answer](#unsolvedQuestions)
 
-# <a name="currentProcess"></a>Current Process
+# <a name="goals"></a>Product Goals
+* Reduce field office call volume
+* Give users the right information in the most efficient amount of time
+
+[back to top](#top)
+
+# <a name="users"></a>Who Are We Building For?
+* Users planning for retirement and want an estimate of their benefits
+* Users applying for retirement
+
+[back to top](#top)
+
+# <a name="userJourney"></a>Current User Journey
 
 1. Catalyst (birthday, friend, AARP mail) gets users interested in retirement
-2. Google 'plan for retirement' or some variation
+2. Googles 'plan for retirement' or some variation
 3. Click ssa.gov link to start to create My Social Security account to get accurate estimate
 4. Blocked from getting My Social Security account
 5. Go to the retirement section of SSA
 6. Tap 'Learn' although you don't want to learn because you came from an article where the information was condense for you
 7. Don't actually find the calculator section because its pretty hard to find, instead you call the field office number
-
-# <a name="goals"></a>Product Goals
-* We want to reduce field office call volume
-* We want users to get the right information in the most efficient amount of time
-* We want users to understand the next steps they need to take
-
-[back to top](#top)
-
-# <a name="users"></a>Who Are We Building For?
-* Users who can't get into the authenticated portion of My Social Security
-* Users who are near retirement and had a life event which could change their benefit
-* Users who are 10-15 years from retirement, but want to adjust their savings plan accordingly
-* Users who are near retirement age, but want to know how their benefits would change if they retired earlier or later
 
 [back to top](#top)
 
@@ -208,6 +209,24 @@ The next section talks about pensions, which aren't too complicated to understan
 [back to top](#top)
 
 # <a name="calculators"></a>Calculators
+
+## <a name="calcSummary"></a>[Calculator Summary]
+| Calculator Name | Description | Screenshots | Comments |
+| --- | --- | --- | ---|
+| [Benefits for Spouses](#spouseBeneCalc) | | | |
+| [Government Pension Offset Calculator](#gpoCalc) | | | |
+| [Late or Early Retirement](#lateOrEarlyCalc) | | | |
+| [Life Expectancy Calculator](#expectancyCalc) | | | |
+| [Online Benefits Calculator](#beneCalc) | | | |
+| [Quick Calculator](#quickCalc) | | | |
+| [Retirement Age Calculator](#ageCalc) | | | |
+| [Retirement Earnings Test Calculator](#earningsTestCalc) | | | |
+| [SSA Benefit Eligibility Screening Tool](#bestCalc) | | | |
+| [Windfall Elimination Provision](#pensionsAndWindfalls) | | | |
+
+
+[back to top](#top)
+
 ## <a name="spouseBeneCalc"></a>[Benefits for Spouses](https://www.ssa.gov/OACT/quickcalc/spouse.html)
 
 [https://www.ssa.gov/OACT/quickcalc/spouse.html](https://www.ssa.gov/OACT/quickcalc/spouse.html)
