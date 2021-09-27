@@ -210,11 +210,11 @@ The next section talks about pensions, which aren't too complicated to understan
 
 # <a name="calculators"></a>Calculators
 
-## <a name="calcSummary"></a>[Calculator Summary]
+## <a name="calcSummary"></a>Calculator Summary
 | Calculator Name | Description | Screenshots | Comments |
 | --- | --- | --- | ---|
-| [Benefits for Spouses](#spouseBeneCalc) | | | |
-| [Government Pension Offset Calculator](#gpoCalc) | | | |
+| [Benefits for Spouses](#spouseBeneCalc) | | [survey](images/benefitsForSpouseResults.png) | |
+| [Government Pension Offset Calculator](#gpoCalc) | | [survey](images/gpoCalc.png) | |
 | [Late or Early Retirement](#lateOrEarlyCalc) | | | |
 | [Life Expectancy Calculator](#expectancyCalc) | | | |
 | [Online Benefits Calculator](#beneCalc) | | | |
