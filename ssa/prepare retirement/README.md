@@ -1,10 +1,23 @@
 # <a name="top"></a>Contents
-* [Product Goals](#goals)
-* [Who Are We Building For?](#user)
-* [Current User Journey](#userJourney)
-* [Solution](#solution)
-* [Possible Scope](#possibleScope)
-* [Out of Scope](#outOfScope)
+* [Product Notes](#productNotes)
+  * [Product Goals](#goals)
+  * [Who Are We Building For?](#user)
+  * [Current User Journey](#userJourney)
+  * [Solution](#solution)
+  * [Possible Scope](#possibleScope)
+  * [Out of Scope](#outOfScope)
+  * [Calculator](#calculator)
+    * [Calculator Summary](#calcSummary)
+    * [Benefits for Spouses](#spouseBeneCalc)
+    * [Government Pension Offset Calculator](#gpoCalc)
+    * [Late or Early Retirement](#lateOrEarlyCalc)
+    * [Life Expectancy Calculator](#expectancyCalc)
+    * [Online Benefits Calculator](#beneCalc)
+    * [Quick Calculator](#quickCalc)
+    * [Retirement Age Calculator](#ageCalc)
+    * [Retirement Earnings Test Calculator](#earningsTestCalc)
+    * [SSA Benefit Eligibility Screening Tool](#bestCalc)
+    * [Windfall Elimination Provision](#windfallCalc)
 * [Prepare for Retirement](#prepare)
   * [Prepare Page Summary](#summary)
   * [How it works](#howItWorks)
@@ -12,36 +25,26 @@
   * [Starting Benefits](#startingBenefits)
   * [Edge Cases](#edgeCases)
   * [Pensions and Windfalls](#pensionsAndWindfalls)
-* [Calculator](#calculator)
-  * [Calculator Summary](#calcSummary)
-  * [Benefits for Spouses](#spouseBeneCalc)
-  * [Government Pension Offset Calculator](#gpoCalc)
-  * [Late or Early Retirement](#lateOrEarlyCalc)
-  * [Life Expectancy Calculator](#expectancyCalc)
-  * [Online Benefits Calculator](#beneCalc)
-  * [Quick Calculator](#quickCalc)
-  * [Retirement Age Calculator](#ageCalc)
-  * [Retirement Earnings Test Calculator](#earningsTestCalc)
-  * [SSA Benefit Eligibility Screening Tool](#bestCalc)
-  * [Windfall Elimination Provision](#windfallCalc)
+
 * [Notes](#notes)
   * [To Do](#todo)
   * [Calculator Funnels to Build](#funnels)
   * [Product Questions to Answer](#unsolvedQuestions)
 
-# <a name="goals"></a>Product Goals
+# <a name="productNotes"></a>Product Notes
+## <a name="goals"></a>Product Goals
 * Reduce field office call volume
 * Give users the right information in the most efficient amount of time
 
 [back to top](#top)
 
-# <a name="users"></a>Who Are We Building For?
+## <a name="users"></a>Who Are We Building For?
 * Users planning for retirement and want an estimate of their benefits
 * Users applying for retirement
 
 [back to top](#top)
 
-# <a name="userJourney"></a>Current User Journey
+## <a name="userJourney"></a>Current User Journey
 
 1. Catalyst (birthday, friend, AARP mail) gets users interested in retirement
 2. Googles 'plan for retirement' or some variation
@@ -53,13 +56,13 @@
 
 [back to top](#top)
 
-# <a name="problem"></a>User Problems
+## <a name="problem"></a>User Problems
 * ~~I don't know how social security retirement works~~
 * There are a lot of calculator options and I'm not sure which one to pick
 * ~~I don't know what documents I'll need to get the information I'm looking for~~
 * I can't log into My Social Security
 
-# <a name="possibleScope">Possible Scope
+## <a name="possibleScope">Possible Scope
 * Small
   * Update prepare portion of the website to be more comprehensible
   * Make small updates to UI for current calculators and add analytics
@@ -72,7 +75,7 @@
   * Build a benefits estimator to give a user a ranged estimate of what they should expect for their specific edge cases
 
 
-# <a name="outOfScope"></a>Out of Scope
+## <a name="outOfScope"></a>Out of Scope
 * We shouldn't build a competitor to an estimator on the authenticated space or given by the field office.
 * Authenticated Estimators
   * [Retirement Estimator](https://www.ssa.gov/benefits/retirement/estimator.html) - This requires authentication
@@ -83,134 +86,6 @@
 ***
 # [End Product Notes]
 ***
-
-# <a name="prepare"></a>Notes from "Prepare for Retirement" web pages
-
-## <a name="summary"></a>Prepare Summary
-The current landing page has an explanation of how it works and eligibility and when you can retire. Its a lot of text and I think a lot of the text could be paired down or converted into explanatory images/infographics
-
-It gets tricky when the page starts to talk about edge cases - military, farm work, self-employed, etc. There might be a small number of people who fit multiple cases, but I think for the majority of the users, we could show contextual information.
-
-The next section talks about pensions, which aren't too complicated to understand, but Windfall Elimination Provision is pretty complicated - I still have no unpacked this portion. Again, we might not need to show this information if it is not pertinent to the user.
-
-[back to top](#top)
-
-## <a name="howItWorks"></a>How it works
-* Who gets it - older people, disabled people, survivors, dependents of beneficiaries
-* Future generation pays for your SSA when you retire
-* On average, 40% of retirement comes from
-
-[back to top](#top)
-
-## <a name="eligibility"></a>Eligibility
-* Based on a credit system, need 40 credits to qualify
-* 40 credits usually equals 10 years of work
-* Earning more credits doesn't equal more benefits - credits are used for *eligibility only*
-
-[back to top](#top)
-
-## <a name="startingBenefits"></a>Starting benefits
-* Early retirement - starts at 62, but reduce benefits
-* Full retirement - starts at 66 (1943-1954) and increases gradually to people who were born in 1960 where retirement is 67
-* Delayed Retirement - Benefit increases until age 70
-* You can continue to work while receiving benefits, earnings will delay benefits
-
-[back to top](#top)
-
-## <a name="edgeCases"></a>Edge Cases
-**[Farm](https://www.ssa.gov/benefits/retirement/planner/farmwork.html)**
-* Boss must report to SSA how much they paid employee so employee can get credit for work
-* $150 or more in cash per calendar year should be reported
-* Paid less than $150 in cash, but employer agricultural labor is $2,500 or more for the calendar year
-* Seasonal workers qualify if commute to work daily, paid on piece-rate basis, employed less than 13 weeks in the last year, and paid at least $150
-
-[back to top](#top)
-
-**[Federal Workers](https://www.ssa.gov/benefits/retirement/planner/fedgovees.html)**
-* Gov't employees from 1983 or earlier didn't pay social security and were on the Civil Service Retirement System(CSRS), which provided retirement
-* If you stay on CSRS you can't get Social Security retirement benefits but you are covered under medicare
-
-[back to top](#top)
-
-**[Military](https://www.ssa.gov/benefits/retirement/planner/veterans.html)**
-* Can get both military retirement and social security benefits
-* If served between 1940 and 1956, no social security tax was paid, but can get a 'special earning' to help qualify
-* Active duty between 1957 and 2001 can be credited to social security earnings record
-* No extra earning credits for military service after 2001
-* Active Duty for the following:
-  * Air Force
-  * Army
-  * Coast Guard
-  * Coast & Geodetic Survey (CGS)
-  * Marines
-  * National Guard
-  * Navy
-  * Commissioned Officer in the Public Health Service (PHS)
-
-[back to top](#top)
-
-**[Non-profit Employees](https://www.ssa.gov/benefits/retirement/planner/religious.html)**
-* If you earned more than $100 from a nonprofit or religious org, you have to pay social security taxes
-* Some religious groups do not have to pay the tax and will not participate in social security benefits or medicare (amish and memonite) [[source](https://www.ssa.gov/OP_Home/handbook/handbook.11/handbook-1128.html)]
-
-[back to top](#top)
-
-**[Railroad Earnings](https://www.ssa.gov/benefits/retirement/planner/railroad.html)**
-* Railroad (RR) workers receive a pension
-* Railroad Retirement Board keeps track of Earnings
-* If worked in RR industry for less than 10 years and have less than 5 years of RR earnings after 1995, railroad earnings will be counted in social security credits
-* If 10 or more years in RR and 5 or more years after 1995, you could qualify for a Railroad pension and RR earnings won't be calculated for determining social security credits
-
-[back to top](#top)
-
-**[Self-Employed](https://www.ssa.gov/benefits/retirement/planner/netearns.html)**
-* Net earnings need to be reported to SSA and IRS
-  * Net Earnings = (Gross Earnings) -  ((Business Deductions) + (Business Depreciation))
-* Net earnings does not include:
-  * Dividends
-  * Loan Interest
-  * Real estate rentals, unless you're a relator
-  * Income from limited partnership
-* Must file taxes if Net Earnings is $400 or more
-  * Form 1040
-  * Schedule C or Schedule F
-  * Schedule SE
-* If you don't owe income tax, you must still pay self-employment social security tax.
-
-[back to top](#top)
-
-**[State/Local Government Employee](https://www.ssa.gov/benefits/retirement/planner/stateandlocal.html)**
-* If covered by state/local pension & social security, you pay social security and medicare taxes
-* If only covered by state/local plan, you don't pay social security taxes
-
-[back to top](#top)
-
-**[Work Outside the US](https://www.ssa.gov/benefits/retirement/planner/international.html)**
-* US has international agreements with a number of countries so you don't have to pay social security to both countries
-* US can count work in other countries for social security credits
-* Work credits from the other country stay on record in that country and could allow you to qualify for a separate benefits
-
-[back to top](#top)
-
-## <a name="pensionsAndWindfalls"></a>Pensions and Windfalls
-**[Windfall Elimination Provision(WEP)](https://www.ssa.gov/benefits/retirement/planner/wep.html)**
-* Receiving income that doesn't withold for SS taxes and gives you a pension could lower SS benefits
-* Process is to break life earnings into three groups and apply a multiple on each group, then check if the person is retiring early, on time or late and apply another multiple on to the benefits
-
-[back to top](#top)
-
-**[Government Pension Offset](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)**
-* Are you a widow of a federal, state, or local government employee receiving a pension? If so, it could reduce your social security benefits
-* If you received one of these pensions and didn't pay social security tax, your spouse's social security benefit will be reduced by 2/3 of the amount of your government pension
-* Doesn't apply if:
-  * Pension isn't based on Earnings
-  * If you paid social security taxes and you filed/were entitled to spouse/widow benefits before 4/1/2004; last day was before 7/1/2004; paid social security taxes on earnings from the last 60 months
-* Edge cases on not reducing social security spouse benefits
-  * Switched from CSRS to FERS after 12/31/1987
-  * Received government pension before Dec 1982 and met all requires for Social Security spouse benefits in effect January 1977
-  Received federal, state, local government pension before 7/1/1983 and were receiving 1/2 support from spouse
-
-[back to top](#top)
 
 # <a name="calculators"></a>Calculators
 
@@ -563,43 +438,151 @@ The next section talks about pensions, which aren't too complicated to understan
 
 [back to top](#top)
 
+# <a name="prepare"></a>Notes from "Prepare for Retirement" web pages
+
+## <a name="summary"></a>Prepare Summary
+The current landing page has an explanation of how it works and eligibility and when you can retire. Its a lot of text and I think a lot of the text could be paired down or converted into explanatory images/infographics
+
+It gets tricky when the page starts to talk about edge cases - military, farm work, self-employed, etc. There might be a small number of people who fit multiple cases, but I think for the majority of the users, we could show contextual information.
+
+The next section talks about pensions, which aren't too complicated to understand, but Windfall Elimination Provision is pretty complicated - I still have no unpacked this portion. Again, we might not need to show this information if it is not pertinent to the user.
+
+[back to top](#top)
+
+## <a name="howItWorks"></a>How it works
+* Who gets it - older people, disabled people, survivors, dependents of beneficiaries
+* Future generation pays for your SSA when you retire
+* On average, 40% of retirement comes from
+
+[back to top](#top)
+
+## <a name="eligibility"></a>Eligibility
+* Based on a credit system, need 40 credits to qualify
+* 40 credits usually equals 10 years of work
+* Earning more credits doesn't equal more benefits - credits are used for *eligibility only*
+
+[back to top](#top)
+
+## <a name="startingBenefits"></a>Starting benefits
+* Early retirement - starts at 62, but reduce benefits
+* Full retirement - starts at 66 (1943-1954) and increases gradually to people who were born in 1960 where retirement is 67
+* Delayed Retirement - Benefit increases until age 70
+* You can continue to work while receiving benefits, earnings will delay benefits
+
+[back to top](#top)
+
+## <a name="edgeCases"></a>Edge Cases
+**[Farm](https://www.ssa.gov/benefits/retirement/planner/farmwork.html)**
+* Boss must report to SSA how much they paid employee so employee can get credit for work
+* $150 or more in cash per calendar year should be reported
+* Paid less than $150 in cash, but employer agricultural labor is $2,500 or more for the calendar year
+* Seasonal workers qualify if commute to work daily, paid on piece-rate basis, employed less than 13 weeks in the last year, and paid at least $150
+
+[back to top](#top)
+
+**[Federal Workers](https://www.ssa.gov/benefits/retirement/planner/fedgovees.html)**
+* Gov't employees from 1983 or earlier didn't pay social security and were on the Civil Service Retirement System(CSRS), which provided retirement
+* If you stay on CSRS you can't get Social Security retirement benefits but you are covered under medicare
+
+[back to top](#top)
+
+**[Military](https://www.ssa.gov/benefits/retirement/planner/veterans.html)**
+* Can get both military retirement and social security benefits
+* If served between 1940 and 1956, no social security tax was paid, but can get a 'special earning' to help qualify
+* Active duty between 1957 and 2001 can be credited to social security earnings record
+* No extra earning credits for military service after 2001
+* Active Duty for the following:
+  * Air Force
+  * Army
+  * Coast Guard
+  * Coast & Geodetic Survey (CGS)
+  * Marines
+  * National Guard
+  * Navy
+  * Commissioned Officer in the Public Health Service (PHS)
+
+[back to top](#top)
+
+**[Non-profit Employees](https://www.ssa.gov/benefits/retirement/planner/religious.html)**
+* If you earned more than $100 from a nonprofit or religious org, you have to pay social security taxes
+* Some religious groups do not have to pay the tax and will not participate in social security benefits or medicare (amish and memonite) [[source](https://www.ssa.gov/OP_Home/handbook/handbook.11/handbook-1128.html)]
+
+[back to top](#top)
+
+**[Railroad Earnings](https://www.ssa.gov/benefits/retirement/planner/railroad.html)**
+* Railroad (RR) workers receive a pension
+* Railroad Retirement Board keeps track of Earnings
+* If worked in RR industry for less than 10 years and have less than 5 years of RR earnings after 1995, railroad earnings will be counted in social security credits
+* If 10 or more years in RR and 5 or more years after 1995, you could qualify for a Railroad pension and RR earnings won't be calculated for determining social security credits
+
+[back to top](#top)
+
+**[Self-Employed](https://www.ssa.gov/benefits/retirement/planner/netearns.html)**
+* Net earnings need to be reported to SSA and IRS
+  * Net Earnings = (Gross Earnings) -  ((Business Deductions) + (Business Depreciation))
+* Net earnings does not include:
+  * Dividends
+  * Loan Interest
+  * Real estate rentals, unless you're a relator
+  * Income from limited partnership
+* Must file taxes if Net Earnings is $400 or more
+  * Form 1040
+  * Schedule C or Schedule F
+  * Schedule SE
+* If you don't owe income tax, you must still pay self-employment social security tax.
+
+[back to top](#top)
+
+**[State/Local Government Employee](https://www.ssa.gov/benefits/retirement/planner/stateandlocal.html)**
+* If covered by state/local pension & social security, you pay social security and medicare taxes
+* If only covered by state/local plan, you don't pay social security taxes
+
+[back to top](#top)
+
+**[Work Outside the US](https://www.ssa.gov/benefits/retirement/planner/international.html)**
+* US has international agreements with a number of countries so you don't have to pay social security to both countries
+* US can count work in other countries for social security credits
+* Work credits from the other country stay on record in that country and could allow you to qualify for a separate benefits
+
+[back to top](#top)
+
+## <a name="pensionsAndWindfalls"></a>Pensions and Windfalls
+**[Windfall Elimination Provision(WEP)](https://www.ssa.gov/benefits/retirement/planner/wep.html)**
+* Receiving income that doesn't withold for SS taxes and gives you a pension could lower SS benefits
+* Process is to break life earnings into three groups and apply a multiple on each group, then check if the person is retiring early, on time or late and apply another multiple on to the benefits
+
+[back to top](#top)
+
+**[Government Pension Offset](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html)**
+* Are you a widow of a federal, state, or local government employee receiving a pension? If so, it could reduce your social security benefits
+* If you received one of these pensions and didn't pay social security tax, your spouse's social security benefit will be reduced by 2/3 of the amount of your government pension
+* Doesn't apply if:
+  * Pension isn't based on Earnings
+  * If you paid social security taxes and you filed/were entitled to spouse/widow benefits before 4/1/2004; last day was before 7/1/2004; paid social security taxes on earnings from the last 60 months
+* Edge cases on not reducing social security spouse benefits
+  * Switched from CSRS to FERS after 12/31/1987
+  * Received government pension before Dec 1982 and met all requires for Social Security spouse benefits in effect January 1977
+  Received federal, state, local government pension before 7/1/1983 and were receiving 1/2 support from spouse
+
+[back to top](#top)
+
+
 ***
 
 
-
-## Questions for SME
-1. What is the difference between retirement benefit and pre-retirement benefits? [[source](https://www.ssa.gov/benefits/retirement/learn.html#h1_)] Specifically, on the site it says "On average, retirement beneficiaries receive 40% of their pre-retirement income from Social Security."
-
-
-2. How are the credits for determining eligibility accumulated? The site states "If you were born in 1929 or later, you need 40 credits (usually, this is 10 years of work)."
-[Answer](https://www.ssa.gov/benefits/retirement/planner/credits.html): Earn 1 credit for every $1,470 with a max of 4 credits per year
-
-
-3. On the [military page](https://www.ssa.gov/benefits/retirement/planner/veterans.html), it states "There are no special extra earnings credits for military service after 2001." Is this because active duty members after 2001 already have social security taken out from pay?
-
-
-4. On the [State and Local Government Employment page](https://www.ssa.gov/benefits/retirement/planner/stateandlocal.html), what does it mean when it says "If you are covered only by your state or local pension plan"? Do some state/local government employees not pay social security taxes? It also states "Your record will show your medicare wages if you pay into that program". Is medicare taxes optional for this group of people?
-
-5. The Windfall Elimination Provision is a little complicated. On the [site](https://www.ssa.gov/benefits/retirement/planner/wep.html) it states "The Windfall Elimination Provision reduces your Eligibility Year (ELY) benefit amount before it is reduced or increased due to early retirement, delayed retirement credits, cost-of-living adjustments (COLA), or other factors." Does this mean if you were not paying social security tax for 5 years due to a local government pension, this would push your eligibility for social security by 5 years? So an early retirement would be 67, a full retirement would be 72 and a delayed retirement would be 75?
-
-6. Would a federal, state, or local government pension affect other non-spouse dependents?
-
-7. On the [Government Pension Offset page](https://www.ssa.gov/benefits/retirement/planner/gpo-calc.html), it says "If you receive a pension from a government job but did not pay Social Security taxes while you had the job, we’ll reduce your Social Security spouse, widow, or widower benefits by two-thirds of the amount of your government pension." Is there such a thing as social security spouse benefit that is given to a spouse after you die? And is it separate from their own social security benefit they are receiving? Basically, this isn't saying the government pension offset will take 2/3rds of a spouse's social security that they paid into, correct? [Answer](https://www.ssa.gov/pubs/EN-05-10007.pdf): Its separate "The offset applies only to Social Security benefits as a spouse, or widow, or widower."
-
-[back to top](#top)
-
 # <a name="notes"></a>Notes
 
-## Comments
+## Personal Comments
 * The [Working outside the US](https://www.ssa.gov/international/totalization_agreements.html) section gets a little messy and might not be necessary to add the eligibility from [international agreements](https://www.ssa.gov/international/status.html)
 * This layout for 'other considerations' when planning retirement is actually a good breakdown of the checklists that a user needs to account for: [https://www.ssa.gov/benefits/retirement/planner/otherthings.html?tl=0%2C1%2C2%2C3%2C4](https://www.ssa.gov/benefits/retirement/planner/otherthings.html?tl=0%2C1%2C2%2C3%2C4)
+* Parts of Retirement
+  * Prepare for retirement
+  * Retirement landing page
+  * Suspend payments
 
 [back to top](#top)
 
-## Parts of Retirement
-* Prepare for retirement
-* retirement landing page
-* Suspend payments
+
 
 [back to top](#top)
 
@@ -642,9 +625,11 @@ The next section talks about pensions, which aren't too complicated to understan
 * How many times does a user come back and reuse a calculator?
   * According to Michelle, many users give up and call the office.
 * Could we add functionality to save the results or email the results so they don't have to do the calculator again?
+  * We probably wouldn't have enough time
 * How accurate of an estimation do users in the unauthenticated space need?
+  * Not very, otherwise it becomes very unwieldy very quickly
 * How much time do users set aside for this?
-* Where are they estimating this information? (like physically)
+* Where is the user physically when they come to the website and start estimating?
 
 [back to top](#top)
 
