@@ -3,6 +3,7 @@
 * [Who Are We Building For?](#user)
 * [Current User Journey](#userJourney)
 * [Solution](#solution)
+* [Possible Scope](#possibleScope)
 * [Out of Scope](#outOfScope)
 * [Prepare for Retirement](#prepare)
   * [Prepare Page Summary](#summary)
@@ -53,31 +54,34 @@
 [back to top](#top)
 
 # <a name="problem"></a>User Problems
-* I don't know how social security retirement works
+* ~~I don't know how social security retirement works~~
 * There are a lot of calculator options and I'm not sure which one to pick
-* I don't know what documents I'll need to get the information I'm looking for
+* ~~I don't know what documents I'll need to get the information I'm looking for~~
 * I can't log into My Social Security
 
-# <a name="solution"></a>Solution
+# <a name="possibleScope">Possible Scope
+* Small
+  * Update prepare portion of the website to be more comprehensible
+  * Make small updates to UI for current calculators and add analytics
+  * Utilize existing calculators and make a flow from one calculator to another
+* Medium
+  * Update the prepare portion of the website to be more comprehendible
+  * Build a benefits estimator to give a user a range estimate of what they should expect for their specific edge cases
+* Large
+  * Build a survey to check how a user’s benefits are effected
+  * Build a benefits estimator to give a user a ranged estimate of what they should expect for their specific edge cases
 
-* Create a flow which prepares a user on what he/she needs and directs them appropriately to the current calculator
-  * Ask them a few questions up front and see if they are looking for information about their situation or trying to get an estimate
-  * Send the user to the correct page
-  * An answer should be saved across pages/calculators so the user doesn't have to input them in multiple times.
-
-  ![Mural Board on possible flow](images/muralv1.png)
-
-  [Mural board](https://app.mural.co/t/usdigitalservice0135/m/usdigitalservice0135/1631911587356/30797d8cab2a09dddf5bb8dcffaf64f2a987a890?sender=u07f6bf104eabaebba0153991)
-
-[back to top](#top)
 
 # <a name="outOfScope"></a>Out of Scope
-* [Retirement Estimator](https://www.ssa.gov/benefits/retirement/estimator.html) - This requires authentication
-* [Detailed Calculator](https://www.ssa.gov/OACT/anypia/anypia.html0) - It might not be out of scope, but I don't have enough time to dive into the calculator right now. We should follow up and see if we need to port this and add it to the backlog
+* We shouldn't build a competitor to an estimator on the authenticated space or given by the field office.
+* Authenticated Estimators
+  * [Retirement Estimator](https://www.ssa.gov/benefits/retirement/estimator.html) - This requires authentication
+  * [Detailed Calculator](https://www.ssa.gov/OACT/anypia/anypia.html0) - It might not be out of scope, but I don't have enough time to dive into the calculator right now. We should follow up and see if we need to port this and add it to the backlog
 
 [back to top](#top)
 
 ***
+# [End Product Notes]
 ***
 
 # <a name="prepare"></a>Notes from "Prepare for Retirement" web pages
@@ -213,8 +217,8 @@ The next section talks about pensions, which aren't too complicated to understan
 ## <a name="calcSummary"></a>Calculator Summary
 | Calculator Name | Description | Screenshots | Comments |
 | --- | --- | --- | ---|
-| [Benefits for Spouses](#spouseBeneCalc) | | [Survey Image](images/benefitsForSpouseResults.png) | |
-| [Government Pension Offset Calculator](#gpoCalc) | | [Survey Image](images/gpoCalc.png) | |
+| [Benefits for Spouses](#spouseBeneCalc) | | [Survey Image](images/benefitsForSpouseResults.png) | Do users use this? |
+| [Government Pension Offset Calculator](#gpoCalc) | | [Survey Image](images/gpoCalc.png) | If you have a specialized use case, like a pension, should you be calling the field office?|
 | [Late or Early Retirement](#lateOrEarlyCalc) | | [Survey Image](images/earlyOrLateRetirement.png) | |
 | [Life Expectancy Calculator](#expectancyCalc) | | [Survey Image](images/lifeExpectancyGenderAndAge.png), [Result Image](images/lifeExpectancyResult.png) | |
 | [Online Benefits Calculator](#beneCalc) | | [Date of Birth Image](images/beneCalcdob.png), [Retirement Age Image](images/beneCalcRetirementAge.png), [Today or Future Dollars Image](images/beneCalctodayOrFuture.png), [Annual Earnings Image](images/beneCalcAnnualEarnings.png), [2021 Earnings Image](images/beneCalc2021Earnings.png), [2022 Earnings Image](images/beneCalc2022Earnings.png), [Survey Results Image](images/beneCalcCalculate.png), [Benefits Eligibility Image](images/beneCalcBenefitEligibilityResults.png), [Benefits Estimate Image](images/beneCalcBenefitestimatesResults.png)| |
