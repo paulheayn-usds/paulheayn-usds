@@ -63,15 +63,15 @@
 
 ## <a name="possibleScope">Possible Scope
 * Small
-  * Update prepare portion of the website to be more comprehensible
+  * Update content on 'Prepare' section of the website to be more comprehensible
   * Make small updates to UI for current calculators and add analytics
-  * Utilize existing calculators and make a flow from one calculator to another
+  * Utilize existing calculators and cobble together a flow from one calculator to another
 * Medium
   * Update the prepare portion of the website to be more comprehendible
-  * Build a benefits estimator to give a user a range estimate of what they should expect for their specific edge cases
+  * Build a benefits estimator to give a user a range estimate of what they should expect and ask if they have edge cases
 * Large
   * Build a survey to check how a user’s benefits are effected
-  * Build a benefits estimator to give a user a ranged estimate of what they should expect for their specific edge cases
+  * Build a benefits estimator to give a user an estimate range of what they should expect based on their edge cases and aggregated labor data
 
 
 ## <a name="outOfScope"></a>Out of Scope
