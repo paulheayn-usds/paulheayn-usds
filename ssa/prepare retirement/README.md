@@ -91,7 +91,7 @@
 
 ## <a name="calcSummary"></a>Calculator Summary
 | Calculator Name | Screenshots | Comments |
-| --- | --- | --- | ---|
+| --- | --- | ---|
 | [Benefits for Spouses](#spouseBeneCalc) | [Survey Image](images/benefitsForSpouseResults.png) | Do users use this? |
 | [Government Pension Offset Calculator](#gpoCalc) | [Survey Image](images/gpoCalc.png) | If you have a specialized use case, like a pension, should you be calling the field office?|
 | [Late or Early Retirement](#lateOrEarlyCalc) | [Survey Image](images/earlyOrLateRetirement.png) | |
