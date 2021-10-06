@@ -75,7 +75,7 @@
 
 
 ## <a name="outOfScope"></a>Out of Scope
-* We shouldn't build a competitor to a calculator on the authenticated space or used by the field office.
+* We shouldn't build a competitor to an estimator on the authenticated space or given by the field office.
 * Authenticated Estimators
   * [Retirement Estimator](https://www.ssa.gov/benefits/retirement/estimator.html) - This requires authentication
   * [Detailed Calculator](https://www.ssa.gov/OACT/anypia/anypia.html0) - It might not be out of scope, but I don't have enough time to dive into the calculator right now. We should follow up and see if we need to port this and add it to the backlog
