@@ -10,7 +10,7 @@ Notes on redesigning the office locator with the data in the DOORS system
 * What is currently there?
 
 # Available Data
-![DOORS data from internal system](images/DOORS.PNG)
+![DOORS](images/DOORS.PNG)
 
 ### Questions on data
 * Does a user need to know the physical address and the mailing address?
@@ -21,7 +21,7 @@ Notes on redesigning the office locator with the data in the DOORS system
 ## Social Security
 
 ## Google Maps
-![Google Maps Screenshot](images/googleMaps.png)
+![Google](images/googleMaps.png)
 * Geomap with pins on offices near by
 * pins have subheaders if the office is closing soon
 * Tapping on it shows:
