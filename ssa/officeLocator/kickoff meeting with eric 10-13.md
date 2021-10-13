@@ -10,7 +10,48 @@ Eric explained the office was the last step in  the service funnel and we should
 
 > Look at bigger picture of service funnel and its just one step in a larger process.
 
-#What is in scope#
+Eric also dove in and explained the types of features we may want to consider:
+> There are lots of offices, identified location from zip code, but its not the best way to identify closest office especially not in larger zip codes. Ideally, we include mapping, the locations themselves, address and basic information but certain service attributes and wait times
+
+Another thing we should consider is how we think about usage of the office locator. Eric mentioned the following statement which means we should extend our thinking from a standalone web page users come to to get location data to an integrated service part of a larger experience like setting up an appointment.
+> If I'm a user and I want to apply but not use self-service, I need to schedule interview and identifying location is part of that process. Office locator could stand alone or it could be injected in the pack of service
+
+**Scope**
+*Should we only focus on accessible data via ROOMS? Or plan to integrate third-party APIs (mapbox, city public data)?*
+
+When we talked about the use case, Eric dove into the differences in field offices. Stating we should attempt to utilize the DOORS data and merge data from other third party APIs to create a new experience
+>Not offices are created equally - some in city with no free parking, others with it. self-help PCs, not all offices have that. DOORS will have this information
+
+> No limitations on API usage - DOORS data will join up with other data on flat file so anyone can ingest it. DOORS api can only be called by zip code. you'd have to find all adjustent offices. If we can export it all to flat file we can export it all to app and not worry about api calls.
+
+> We can use third-party APIs but need to be mindful of contracts - when we start paying, we have to have a contract and need companies to compete for it and it slows down progress.
+
+> If the [map] data is open source we can pull down to reference on our own
+
+Finally, we want to consider the cost benefit of using internal tools. We have access to some powerful tools, but if the end user can't use the map, its not worth the extra features.
+> There is arcGIS data which we have access to it, but we want consumer friendly mapping
+
+*What is out of scope?*
+For the concept we shouldn't limit ourselves as much, the data we have access to will do that for us. 
+> DOORS can add attributes. In time scale, we can have some in there, but office wait time is a wish list item.
+
+```
+Action Item
+Paul to follow up with Tom Nielsen on the work he has done with the Justice 40 team and understand the free federal mapping tool they are using.
+```
+
+**Users and Stakeholders**
+*Which field offices might be the best to talk directly with users?*
+We have some data from regional offices, but we need to get in front of users and talk with them.
+> I've been working with regions to get information on them to understand types of information. But we've been relying on customer feedback through agents, need to talk with customer
+
+
+```
+Action Items
+Paul will follow up with Sylvie to gather data Eric collected while talking with regional offices
+```
+
+#Scope#
   * How do field offices handle content controls (office closing, hours, wait times?)?
   * Focus on accessible data via ROOMS? Or plan to integrate third-party APIs (mapbox, city public data)
   * What is out of scope?
