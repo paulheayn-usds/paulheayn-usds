@@ -37,14 +37,14 @@
 * User looking for office near me - it shows me wait time at a glance because it informs decision on which to pick.
 * Talk to slyvie on regional offices
 * Working on content controls - temporary controls but its not available now, with message and expecation for reopen
-* Existing office locator has wierd features - brings up other agencies with community service phone numbers - never discussed if it gets used or why
+* Existing office locator has weird features - brings up other agencies with community service phone numbers - never discussed if it gets used or why
 * Generalized web data but won't answer why - it should be tested
 * We have details from the field in CBO - the office - can use them to be interviewed. Michelle and Ashley
 * No one is going to field office - go to recruitment of someone who has used the office service channel - 'have you been to an office for an interview or other service need?'
 
 * Data point - standard list of service offerings per office - parking, self-help pcs.  - all are full service, very few exceptions for card centers (nyc and philly only focusing on cards and name services)
 * Have ZIPPER visitor intake - has wait times, but can't use that its not apples to apples - offices cue people differently - two stage cues - tick you and pull you in for quick assessment - second cue doesn't show in MI in other places you get a ticket and wait until you get an agent.
-* Ping ???
+* Ping Eric.Christiansen@ssa.gov to get numbers on field office visits
 
 * Change in office? Use the office to help people who need it the most and the most complicated. for everyone else use the self-service channels. We want to prioritize. We can't stop people from just walking in, we will always have to be full services. we are trying to make checkin process more consistent with consistently measured wait times. in the new model, we are doing away with check in kiosks. Our check in today, you indicate SSN, reason for business, if you have an appointment or not. We found our customers are very slow if they don't remember ssn or spend a lot of time selecting the correct service.
   * When offices open, there is a huge influx and do it for them, the manager can do it faster and can move people in larger status. rush in the morning means the models failed. removing kiosk from station and will have an agent and will do the way finding, assessing need. the experience in office will change and reopen
