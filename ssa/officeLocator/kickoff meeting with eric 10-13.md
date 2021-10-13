@@ -1,7 +1,5 @@
-# Notes
-
-## Questions for Eric
-**Goals**
+# Questions for Eric
+## Goals
 
 *What is SSA's primary goal with improving the office locator?*
 
@@ -10,13 +8,14 @@ Eric explained the office was the last step in  the service funnel and we should
 
 > Look at bigger picture of service funnel and its just one step in a larger process.
 
-Eric also dove in and explained the types of features we may want to consider:
+Eric also explained that searching by zip code might not be the most efficient way, especially in larger zip codes.
 > There are lots of offices, identified location from zip code, but its not the best way to identify closest office especially not in larger zip codes. Ideally, we include mapping, the locations themselves, address and basic information but certain service attributes and wait times
 
 Another thing we should consider is how we think about usage of the office locator. Eric mentioned the following statement which means we should extend our thinking from a standalone web page users come to to get location data to an integrated service part of a larger experience like setting up an appointment.
 > If I'm a user and I want to apply but not use self-service, I need to schedule interview and identifying location is part of that process. Office locator could stand alone or it could be injected in the pack of service
 
-**Scope**
+## Scope
+
 *Should we only focus on accessible data via ROOMS? Or plan to integrate third-party APIs (mapbox, city public data)?*
 
 When we talked about the use case, Eric dove into the differences in field offices. Stating we should attempt to utilize the DOORS data and merge data from other third party APIs to create a new experience
@@ -32,15 +31,23 @@ Finally, we want to consider the cost benefit of using internal tools. We have a
 > There is arcGIS data which we have access to it, but we want consumer friendly mapping
 
 *What is out of scope?*
-For the concept we shouldn't limit ourselves as much, the data we have access to will do that for us. 
+
+For the concept we shouldn't limit ourselves as much, the data we have access to will do that for us.
 > DOORS can add attributes. In time scale, we can have some in there, but office wait time is a wish list item.
+
+*How do we handle content controls for field offices, such as field office closures for inclement weather?*
+
+We could include content controls for field offices in concepts, but that functionality isn't yet built.
+> There will be temporary controls but its not available now. Data in this feature will probably message and expectation for reopen, but its not being worked on right now.
+
 
 ```
 Action Item
 Paul to follow up with Tom Nielsen on the work he has done with the Justice 40 team and understand the free federal mapping tool they are using.
 ```
 
-**Users and Stakeholders**
+## Users and Stakeholders
+
 *Which field offices might be the best to talk directly with users?*
 We have some data from regional offices, but we need to get in front of users and talk with them.
 > I've been working with regions to get information on them to understand types of information. But we've been relying on customer feedback through agents, need to talk with customer
@@ -51,19 +58,85 @@ Action Items
 Paul will follow up with Sylvie to gather data Eric collected while talking with regional offices
 ```
 
-#Scope#
+## Usage Data and Background Information ##
+
+*Is all field office capabilities in the DOORS system?*
+
+Most offices are similar in functionality with a few outliers. But Eric much of this data will be added to DOORS in the future
+> There is a standard list of service offerings per office - parking, self-help pcs.
+> All are full service with very few exceptions for card centers (nyc and philly only focusing on cards and name change services)
+
+*Do we know, on average, how many people come into the field offices?*
+
+We have visitor data from internal systems, but the data isn't uniform
+
+> We have the  ZIPPER visitor intake. It contains wait times, but can't use that its not apples to apples - offices cue people differently. Some offices use a two stage cues where the first cue is for quick assessment and the second cue doesn't show in MI. This leaves some field offices to have wait times of 2 minutes, while in other field offices you get a ticket and wait 40 minutes until you get an agent.
+
+*How will the office change post-pandemic?*
+
+Eric dove deep into how the office will change and what some of the problems field offices are facing right now.
+
+> We want to use the office to help those who need it the most and have the most complicated tasks. For everyone else they should use the self-service channels. We want to prioritize.
+
+> We can't stop people from just walking in, we will always have to be full services. We are trying to make the check-in process more consistent with consistently measured wait times.
+
+> In the new model, we are doing away with check-in kiosks. Our check in today, you type in your SSN, reason for business, if you have an appointment or not. We found some of our customers are very slow if they don't remember SSN or spend a lot of time selecting the correct service.
+
+> This causes bottlenecks at the start of the day when there is a huge influx and the managers come around and enter in the information for them - the manager can do it faster and can move people in larger status.
+
+> This rush in the morning means the models failed.
+
+SSA plans on removing the kiosk and will use agents to walk around and help customers while in line.
+> In the future we are removing the kiosk from station and will have an agent and will do the wayfinding, assessing need.
+
+> The experience will change but service won't
+
+This led to conversation about the SSA mobile app that was in development, but he wasn't sure of the project status
+
+> We have a mobile check-in app that we were building out, where a customer can bring an app up and identify service location and pre-check into their appointment. I'm not sure what the status is right now or how it will integrate with it?
+
+Andy and his shop worked on the mobile app so we can reach out to him to understand more
+
+*Do we have access to web analytics for the office locator?*
+
+Yes, we do. It's in MI and tagged in Google Analytics.
+
+>In the last year office locator average 1-1.4M/month unique visitors a month or about 14M a year. It looks like it was going down and then spiked - back in 2011 it was 12-13M for the year, then started dropping 2019 it was down to 9M for the year.
+
+Analytics data from MI matches with Google Analytics, at least visitor-wise
+> MI shows 1.19M Unique and on Google Analytics its 1.2M unique, average time on page is 1m35s, 30% of customers exit from there
+> In Google Analytics, search for folo - three tags, ifolo/officesearchandresults, otheragenciesinyourarea + error pages (?)
+
+There is this additional feature where the office locator links to other community service phone number
+> The existing office locator has a feature that brings up other agencies with community service phone numbers, but it was never discussed if it gets used or why
+> We shouldn't look only at generalized web data since it won't answer why - it should be tested
+> According to Google Analytics, 'Other agencies' link is used by 2% of customers average time on page is 4 minutes and 3 seconds
+
+
+```
+Action Item
+* Ping Eric.Christiansen@ssa.gov to get numbers on field office visits from ZIPPER visitor intake system
+* Email Sylvie about the Mobile app and get in touch with Julius
+* Talk to Andy about the mobile app
+* Email Sylvie to connect with Elizabeth Hanover since she has been working on the office information effort. She is an area manager in the Boston region and might have more perspective from a different level.
+```
+
+
+# Raw Notes (unedited)
+
+## Scope
   * How do field offices handle content controls (office closing, hours, wait times?)?
   * Focus on accessible data via ROOMS? Or plan to integrate third-party APIs (mapbox, city public data)
   * What is out of scope?
-#Stakeholder#
+## Stakeholders
   * How can I talk with local offices?
   * Which field offices might be the best to talk directly with users?
   * Who else do you recommend I talk with?
-#Strategy#
+## Strategy
   * Initial qualitative feedback on prototype
   * Build design MVP and user test it with users
   * Adjust feedback
-#Data#
+## Data
   * Do we have access to field office usage data?
   * How has the field office usage changed since the pandemic?  
   * Do we have access to analytics for the current office locator?
@@ -84,7 +157,7 @@ Paul will follow up with Sylvie to gather data Eric collected while talking with
 * DOORS can add attributes. In time scale, we can have some in there, but office wait time is a wish list item.
 * User looking for office near me - it shows me wait time at a glance because it informs decision on which to pick.
 * Talk to slyvie on regional offices
-* Working on content controls - temporary controls but its not available now, with message and expecation for reopen
+* Working on content controls - temporary controls but its not available now, with message and expectation for reopen
 * Existing office locator has weird features - brings up other agencies with community service phone numbers - never discussed if it gets used or why
 * Generalized web data but won't answer why - it should be tested
 * We have details from the field in CBO - the office - can use them to be interviewed. Michelle and Ashley
