@@ -1,8 +1,13 @@
 # Notes
 
-## Questions
+## Questions for Eric
 #Goals#
   * What is SSA's primary goal with improving the office locator?
+Eric explained the office was the last step in  the service funnel and we should attempt to help the users be as efficient as possible.
+> Get users to office as quickly as possible. we've done our best with the website. Service strategy is web then phone then office. thats is our preference from business preference. In general drive people to online service.
+
+> Look at bigger picture of service funnel and its just one step in a larger process.
+
 #What is in scope#
   * How do field offices handle content controls (office closing, hours, wait times?)?
   * Focus on accessible data via ROOMS? Or plan to integrate third-party APIs (mapbox, city public data)
