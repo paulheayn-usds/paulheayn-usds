@@ -2,6 +2,7 @@
 
 ## Questions for Eric
 **Goals**
+
 *What is SSA's primary goal with improving the office locator?*
 
 Eric explained the office was the last step in  the service funnel and we should attempt to help the users be as efficient as possible.
