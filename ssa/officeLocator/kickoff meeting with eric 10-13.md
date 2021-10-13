@@ -1,4 +1,8 @@
-# Questions for Eric
+# Office Locator Kick-Off Meeting
+
+**Attendance**
+Paul Heayn, Andy Spangler, Andrea Schneider, Sylvie Williams
+
 ## Goals
 
 *What is SSA's primary goal with improving the office locator?*
