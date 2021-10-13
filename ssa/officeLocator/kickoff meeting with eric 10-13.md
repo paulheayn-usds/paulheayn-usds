@@ -1,21 +1,21 @@
 # Notes
 
 ## Questions
-1. Goals
+#Goals#
   * What is SSA's primary goal with improving the office locator?
-2. What is in scope?
+#What is in scope#
   * How do field offices handle content controls (office closing, hours, wait times?)?
   * Focus on accessible data via ROOMS? Or plan to integrate third-party APIs (mapbox, city public data)
   * What is out of scope?
-3. Stakeholder
+#Stakeholder#
   * How can I talk with local offices?
   * Which field offices might be the best to talk directly with users?
   * Who else do you recommend I talk with?
-4. Strategy
+#Strategy#
   * Initial qualitative feedback on prototype
   * Build design MVP and user test it with users
   * Adjust feedback
-5. Data
+#Data#
   * Do we have access to field office usage data?
   * How has the field office usage changed since the pandemic?  
   * Do we have access to analytics for the current office locator?
